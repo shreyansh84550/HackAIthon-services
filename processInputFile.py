@@ -64,8 +64,8 @@ def processUploadedFile(uploadedFile):
             print("The completeExtractedData is :" , completeExtractedData)    
             csv_string_noheaders_to_json(completeExtractedData, jsonFilePath,fieldnames)
     # Start processing the JSON files
-    allTripsProcessed = read_and_process_json("jsonFiles")
-    print("The trips processed are : ", allTripsProcessed)
+    classifyTripsResults = read_and_process_json("jsonFiles")
+    print("The trips processed are : ", classifyTripsResults)
 
 def csv_string_noheaders_to_json(csv_string, json_file_path, fieldnames, delimiter=','):
     """

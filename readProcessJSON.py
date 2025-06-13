@@ -65,6 +65,7 @@ def process_trip(trip_data: Dict) -> Dict:
         
         # Process evidence files
         evidence_folder = trip_data['evidenceFolderPath']
+        #Classify if the file is Bill/group-photo/booking
         entities = process_files_in_folder(evidence_folder)
         
         # Create the processed trip object (including original data plus processing results)

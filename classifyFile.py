@@ -19,6 +19,7 @@ from typing import Optional
 from google.api_core.client_options import ClientOptions
 from google.cloud import documentai  # type: ignore
 import magic
+from imageCountValidation import count_faces, detect_faces
 
 # TODO(developer): Uncomment these variables before running the sample.
 # project_id = "YOUR_PROJECT_ID"
@@ -107,6 +108,34 @@ def processFile( filePath
         for entity in document.entities
         if entity.confidence == max_confidence
     ]
+
+    if highest_confidence_entities:
+        # Get the first entity (since they all have the same highest confidence)
+        main_entity = highest_confidence_entities[0]
+        
+        if main_entity["type"] == "group-photo":
+            # Call image validation function
+            image_validation_result = detect_faces(file_path)
+            face_count = count_faces(image_validation_result)
+            image_analysis_entity = [
+                {
+                    "face_count": face_count
+                }
+            ]
+            highest_confidence_entities[0]["image_analysis"] = image_analysis_entity
+            print("The return from group-photo output:" , highest_confidence_entities)
+            return highest_confidence_entities  # type: ignore
+        #elif main_entity["type"] == "bill":
+        #    # Call bill processing function
+        #    bill_processing_result = detect_faces(file_path)
+        #    highest_confidence_entities[0]["processing_results"] = bill_processing_result
+        #    return highest_confidence_entities #type: ignore
+        else:
+            # Handle other entity types or return as is
+            return highest_confidence_entities # type: ignore
+    else:
+        return None
+
     return highest_confidence_entities # type: ignore
 
 # [END documentai_process_document]
