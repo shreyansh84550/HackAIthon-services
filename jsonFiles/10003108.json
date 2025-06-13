@@ -1,11 +1,52 @@
 [
-    {
-        "rowId": "2",
-        "tripId": "10003108",
-        "fromDate": "2024-04-21 00:00:00",
-        "toDate": "2024-04-21 00:00:00",
-        "evidenceFolderPath": "svm/vinhhd",
-        "memberCount": "16",
-        "vacationDestination": "JIT Team Building"
+  {
+    "rowId": "2",
+    "tripId": "10003108",
+    "fromDate": "2024-04-21 00:00:00",
+    "toDate": "2024-04-21 00:00:00",
+    "evidenceFolderPath": "svm/vinhhd",
+    "memberCount": "16",
+    "vacationDestination": "JIT Team Building",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/vinhhd\\1713952415932_1a3b7e66-f47f-436f-a7da-56fdda51d38c.jpg",
+            "type": "bill",
+            "confidence": 0.9281376004219055,
+            "normalized_value": null
+          }
+        ],
+        [
+          {
+            "file": "svm/vinhhd\\1713953358143_b9f9ad50-c550-4d6e-9c17-7a2600ff4874.png",
+            "type": "group-photo",
+            "confidence": 0.9817543625831604,
+            "normalized_value": null,
+            "image_analysis": [
+              {
+                "face_count": 13
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "file": "svm/vinhhd\\1713953464711_c4cd9098-1777-4b6c-8c17-3a0cd89902b6.jpg",
+            "type": "group-photo",
+            "confidence": 0.9810066223144531,
+            "normalized_value": null,
+            "image_analysis": [
+              {
+                "face_count": 13
+              }
+            ]
+          }
+        ]
+      ],
+      "processing_date": "2025-06-14 02:11:04",
+      "status": "success"
     }
+  }
 ]
