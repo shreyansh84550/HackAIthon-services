@@ -43,7 +43,7 @@ def processFile( filePath
 
     #determine the mime type
     mime_type = magic.from_file(file_path, mime=True)
-    print("The mime value is :", mime_type)
+    #print("The mime value is :", mime_type)
     if mime_type == "":
         print("Not a valid file:", file_path)
         return
@@ -91,9 +91,23 @@ def processFile( filePath
     # https://cloud.google.com/document-ai/docs/reference/rest/v1/Document
     document = result.document
 
-    # Read the text recognition output from the processor
-    print("The document contains the following text:")
-    return document.entities # type: ignore
+    # Find the highest confidence value among all entities
+    if document.entities :
+        max_confidence = max(entity.confidence for entity in document.entities)
+    else:
+        max_confidence = 0
+    # Filter entities to only those with the highest confidence
+    highest_confidence_entities = [
+        {
+            "file": file_path,
+            "type": entity.type_,
+            "confidence": entity.confidence,
+            "normalized_value": entity.normalized_value.text if entity.normalized_value else None
+        }
+        for entity in document.entities
+        if entity.confidence == max_confidence
+    ]
+    return highest_confidence_entities # type: ignore
 
 # [END documentai_process_document]
 

@@ -1,69 +1,102 @@
+import os
 import json
 from datetime import datetime
+from typing import List, Dict
+from processFolder import process_files_in_folder
 
-def process_trip(trip_data):
-    """Function to process individual trip data"""
+def read_and_process_json(json_folder):
+    """
+    Scan through a folder containing JSON files with trip data, process each trip,
+    and update the original JSON files with the processed results.
+    
+    Args:
+        json_folder: Path to folder containing JSON trip files
+        
+    Returns:
+        List of all processed trips with their extracted entities
+    """
+    all_processed_trips = []
+    
+    if not os.path.exists(json_folder):
+        print(f"Error: JSON folder not found at {json_folder}")
+        return all_processed_trips
+    
+    for json_file in os.listdir(json_folder):
+        if not json_file.lower().endswith('.json'):
+            continue
+            
+        file_path = os.path.join(json_folder, json_file)
+        print(f"\nProcessing JSON file: {json_file}")
+        
+        try:
+            with open(file_path, 'r') as f:
+                trips = json.load(f)
+                
+                if not isinstance(trips, list):
+                    print(f"Error in {json_file}: Expected a list of trips")
+                    continue
+                
+                processed_trips = []
+                for trip in trips:
+                    processed_trip = process_trip(trip)
+                    processed_trips.append(processed_trip)
+                    all_processed_trips.append(processed_trip)
+                
+                # Write the processed data back to the same file
+                with open(file_path, 'w') as f:
+                    json.dump(processed_trips, f, indent=2)
+                print(f"Updated {json_file} with processed data")
+                    
+        except Exception as e:
+            print(f"Error processing {json_file}: {str(e)}")
+            continue
+            
+    return all_processed_trips
+
+def process_trip(trip_data: Dict) -> Dict:
+    """Process individual trip data including its evidence files"""
     print(f"\nProcessing Trip ID: {trip_data['tripId']}")
-    print(f"- Date: {trip_data['fromDate']} to {trip_data['toDate']}")
-    print(f"- Evidence Folder: {trip_data['evidenceFolderPath']}")
-    print(f"- Members: {trip_data['memberCount']}")
     
-    # Convert string dates to datetime objects
-    from_date = datetime.strptime(trip_data['fromDate'], '%Y-%m-%d %H:%M:%S')
-    to_date = datetime.strptime(trip_data['toDate'], '%Y-%m-%d %H:%M:%S')
-    
-    # Convert member count to integer
-    member_count = int(trip_data['memberCount'])
-    
-    #------------------------ Here is the logic that needs to be written -----------------------
-
-    # You can add your custom processing logic here
-    # For example: validate dates, check folder existence, etc.
-    
-    # Return processed data (modify as needed)
-    return {
-        'trip_id': trip_data['tripId'],
-        'duration_days': (to_date - from_date).days,
-        'evidence_path': trip_data['evidenceFolderPath'],
-        'members': member_count
-    }
-
-def read_and_process_json(file_path):
-    """Read JSON file and process each trip"""
     try:
-        with open(file_path, 'r') as file:
-            trips = json.load(file)
-            
-            if not isinstance(trips, list):
-                print("Error: Expected a list of trips in JSON file")
-                return []
-                
-            processed_trips = []
-            for trip in trips:
-                processed = process_trip(trip)
-                processed_trips.append(processed)
-                
-            return processed_trips
-            
-    except FileNotFoundError:
-        print(f"Error: File not found at {file_path}")
-        return []
-    except json.JSONDecodeError:
-        print("Error: Invalid JSON format")
-        return []
+        # Convert and validate dates
+        from_date = datetime.strptime(trip_data['fromDate'], '%Y-%m-%d %H:%M:%S')
+        to_date = datetime.strptime(trip_data['toDate'], '%Y-%m-%d %H:%M:%S')
+        member_count = int(trip_data['memberCount'])
+        
+        # Process evidence files
+        evidence_folder = trip_data['evidenceFolderPath']
+        entities = process_files_in_folder(evidence_folder)
+        
+        # Create the processed trip object (including original data plus processing results)
+        processed_trip = {
+            **trip_data,  # Include all original data
+            'classfication': {
+                'duration_days': (to_date - from_date).days,
+                'extracted_entities': entities,
+                'processing_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                'status': 'success'
+            }
+        }
+        
+        return processed_trip
+        
     except KeyError as e:
-        print(f"Error: Missing required field {e}")
-        return []
-
-# Example usage
-if __name__ == "__main__":
-    # Path to your JSON file
-    json_file = "trips.json"
-    
-    # Read and process the JSON file
-    results = read_and_process_json(json_file)
-    
-    # Print summary of processed trips
-    print("\nProcessing Summary:")
-    for result in results:
-        print(f"Trip {result['trip_id']}: {result['members']} members, duration {result['duration_days']} days")
+        print(f"Missing required field in trip data: {e}")
+        return {
+            **trip_data,
+            'processed': {
+                'status': 'error',
+                'error': f"Missing field: {e}",
+                'processing_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            }
+        }
+    except Exception as e:
+        print(f"Error processing trip {trip_data.get('tripId', 'unknown')}: {e}")
+        return {
+            **trip_data,
+            'processed': {
+                'status': 'error',
+                'error': str(e),
+                'processing_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            }
+        }

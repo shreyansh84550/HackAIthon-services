@@ -2,10 +2,11 @@
 import openpyxl
 import os
 from pathlib import Path
-from processFolder import process_files_in_folder
+
 import json
 from io import StringIO
 import csv
+from readProcessJSON import read_and_process_json
 
 def processUploadedFile(uploadedFile):
 # load excel with its path
@@ -56,12 +57,15 @@ def processUploadedFile(uploadedFile):
                 continue
         print("Total Member Count: " , memberCountData)
         if memberCountData > 0:
-            completeExtractedData = str(i) + "," + str(tripId) + "," + str(fromDate) + "," + str(toDate) + "," + str(folder_path) + "," + str(memberCountData)
+            completeExtractedData = str(i) + "," + str(tripId) + "," + str(fromDate) + "," + str(toDate) + "," + str(folder_path) + "," + str(memberCountData) + "," + str(vacationDestination)
             #write to JSON file
             jsonFilePath = "jsonFiles/" + str(tripId) + ".json"
-            fieldnames = ['rowId','tripId', 'fromDate', 'toDate','evidenceFolderPath','memberCount']
+            fieldnames = ['rowId','tripId', 'fromDate', 'toDate','evidenceFolderPath','memberCount','vacationDestination']
             print("The completeExtractedData is :" , completeExtractedData)    
             csv_string_noheaders_to_json(completeExtractedData, jsonFilePath,fieldnames)
+    # Start processing the JSON files
+    allTripsProcessed = read_and_process_json("jsonFiles")
+    print("The trips processed are : ", allTripsProcessed)
 
 def csv_string_noheaders_to_json(csv_string, json_file_path, fieldnames, delimiter=','):
     """
