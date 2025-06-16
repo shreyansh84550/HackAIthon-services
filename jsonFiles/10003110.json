@@ -1,0 +1,224 @@
+[
+  {
+    "rowId": "4",
+    "tripId": "10003110",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/trieuld",
+    "memberCount": "7",
+    "vacationDestination": "Nghi mat ket hop BBQ o bien nhan tao Vinhomes Grand Park",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/trieuld\\1713757210082_53f16065-1f0d-408b-b176-27e180de3677.pdf",
+            "type": "group-photo",
+            "confidence": 0.9768204689025879,
+            "normalized_value": null,
+            "image_analysis": null
+          }
+        ],
+        [
+          {
+            "file": "svm/trieuld\\1713757216455_1eae4377-4d09-467e-9b7c-cef1da5790b5.pdf",
+            "type": "bill",
+            "confidence": 0.8370307087898254,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "235,200",
+                  "confidence": 0.29768774
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "141,800",
+                  "confidence": 0.27567512
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "17:00",
+                  "confidence": 0.7267983
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024 ",
+                  "confidence": 0.7145528
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "Ng\u00e0y 20 th\u00e1ng 4",
+                  "confidence": 0.5359829
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/04/2024 ",
+                  "confidence": 0.4036363
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/04/2024 ",
+                  "confidence": 0.32200384
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/04/2024 ",
+                  "confidence": 0.24660127
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024 ",
+                  "confidence": 0.1910762
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "1800 6804",
+                  "confidence": 0.46519294
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "512360",
+                  "confidence": 0.0014804284
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "00002502423",
+                  "confidence": 0.36427605
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "0364941",
+                  "confidence": 0.9469329
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "48693",
+                  "confidence": 0.0010233467
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "1629991",
+                  "confidence": 0.8256956
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "14045",
+                  "confidence": 0.8931534
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "37185455",
+                  "confidence": 0.86599296
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "1413493",
+                  "confidence": 0.86720395
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "94595",
+                  "confidence": 0.8553009
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "00002282267",
+                  "confidence": 0.2883298
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "KINGFOODMART",
+                  "confidence": 0.99929667
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "opmart",
+                  "confidence": 0.00020768402
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "\u0421 WITH EOOD",
+                  "confidence": 3.093871e-07
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "NG\u1eccC MINH FOOD",
+                  "confidence": 0.26479185
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "KINGFOODMART",
+                  "confidence": 0.9991657
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "Vir nomes Granc Park 513 02, Q. Th\u1ee7 \u0110\u1ee9c - Ph\u01b0\u1eddng Long Th\u00e1nh M\u1ef9 - Qu\u1eadn Th\u1ee7 \u0110\u1ee9c, H\u1ed3 Ch\u00ed Minh",
+                  "confidence": 0.2881792
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "Nguy\u1ec5n V\u0103n \u0110\u00ea",
+                  "confidence": 0.10362799
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "7. Quan Go Vap,",
+                  "confidence": 0.2494645
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "543/1 Phan van Tr\u1ecb, Ph\u01b0\u01a1ng 7,\nThanh pho Ho Chi Minh",
+                  "confidence": 0.5266069
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "167/",
+                  "confidence": 0.5382973
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "Quan 12, Thanh pho Ho Chi Minh",
+                  "confidence": 0.09863756
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "501A Nguy\u1ec5n \u1ea2nh Th\u1ee7, P.Hi\u1ec7p Th\u00e0nh, Qu\u1eadn 12, TP.HCM",
+                  "confidence": 0.56535083
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "Poons Garden, T.Binh D\u01b0\u01a1ng - Ph\u01b0\u01a1ng Du\u00e2n Qu\u1eadn Di An, Bi\u1ec7t",
+                  "confidence": 0.065451406
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-16 22:53:24",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "missing_image_analysis",
+        "tripId": "10003110",
+        "file": "svm/trieuld\\1713757210082_53f16065-1f0d-408b-b176-27e180de3677.pdf",
+        "message": "Group photo has no image analysis data"
+      },
+      {
+        "rule": "no_face_detection",
+        "tripId": "10003110",
+        "memberCount": 7,
+        "groupPhotoFiles": [
+          "svm/trieuld\\1713757210082_53f16065-1f0d-408b-b176-27e180de3677.pdf"
+        ],
+        "message": "Group photos found but no face detection data available"
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "rowId": "15",
+    "tripId": "10003121",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/vubh1",
+    "memberCount": "12",
+    "vacationDestination": "Ho Chi Minh",
+    "processed": {
+      "status": "error",
+      "error": "400 Unsupported MIME type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'. [reason: \"UNSUPPORTED_MIME_TYPE\"\ndomain: \"documentai.googleapis.com\"\nmetadata {\n  key: \"mime_type\"\n  value: \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\"\n}\n]",
+      "processing_date": "2025-06-16 22:59:20"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_group_photos",
+        "tripId": "10003121",
+        "memberCount": 12,
+        "message": "No group photos found to validate member count"
+      }
+    ]
+  }
+]

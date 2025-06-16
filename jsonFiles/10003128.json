@@ -1,0 +1,104 @@
+[
+  {
+    "rowId": "21",
+    "tripId": "10003128",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/tramtth1",
+    "memberCount": "21",
+    "vacationDestination": "Quy Nhon",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/tramtth1\\1713769524676_d86af995-dc93-4e4c-b038-8b88dc3f9fae.png",
+            "type": "bill",
+            "confidence": 0.8383771181106567,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "4.040.000",
+                  "confidence": 0.36301705
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "4.040.000",
+                  "confidence": 0.51881695
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "4.040.000",
+                  "confidence": 0.61214817
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/4/2024 ",
+                  "confidence": 0.70488787
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "0981932433",
+                  "confidence": 0.7422619
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "0981932433",
+                  "confidence": 0.8003049
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Camping Chill Quy Nh\u01a1n",
+                  "confidence": 0.0053892266
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "\u1ec5n Th\u00e1i H\u1ecdc, L\u00ea H\u1ed3ng Phong, Qui Nh\u01a1n",
+                  "confidence": 0.03845457
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/tramtth1\\1713769525691_212a2a43-b68c-47ae-bc2e-3ead4da9c223.png",
+            "type": "image/png",
+            "confidence": 0,
+            "text": "This image cannot be classified",
+            "normalized_value": null
+          }
+        ]
+      ],
+      "processing_date": "2025-06-16 23:01:08",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_group_photos",
+        "tripId": "10003128",
+        "memberCount": 21,
+        "message": "No group photos found to validate member count"
+      },
+      {
+        "rule": "bill_date_out_of_range",
+        "tripId": "10003128",
+        "tripDates": "2024-04-20 to 2024-04-20",
+        "billDate": "2024-04-19",
+        "confidence": 0.70488787,
+        "source": "svm/tramtth1\\1713769524676_d86af995-dc93-4e4c-b038-8b88dc3f9fae.png",
+        "message": "Bill date outside trip date range"
+      },
+      {
+        "rule": "no_valid_bill_dates",
+        "tripId": "10003128",
+        "message": "No bills found within trip date range"
+      }
+    ]
+  }
+]

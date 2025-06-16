@@ -1,0 +1,70 @@
+[
+  {
+    "rowId": "10",
+    "tripId": "10003116",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/nhattt",
+    "memberCount": "15",
+    "vacationDestination": "Team building in Sala HCM",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/nhattt\\1713749620320_5ba147f6-8e40-4cc9-b999-6cfee0e68ab7.jpg",
+            "type": "image/jpeg",
+            "confidence": 0,
+            "text": "This image cannot be classified",
+            "normalized_value": null
+          }
+        ],
+        [
+          {
+            "file": "svm/nhattt\\1713769372068_f79b47d6-f8d5-4706-bec4-dae818c59df7.png",
+            "type": "bill",
+            "confidence": 0.8975611329078674,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3.086.748\u20ab",
+                  "confidence": 0.49806234
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024",
+                  "confidence": 0.81705904
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "2402005889",
+                  "confidence": 0.9915509
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "27 Nguy\u1ec5n V\u0103n B\u00e1, B\u00ecnh Th\u1ecd TP, Th\u1ee7 \u0110\u1ee9c",
+                  "confidence": 0.8211172
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-16 22:57:00",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_group_photos",
+        "tripId": "10003116",
+        "memberCount": 15,
+        "message": "No group photos found to validate member count"
+      }
+    ]
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "rowId": "2",
+    "tripId": "10003107",
+    "fromDate": "2024-04-18 00:00:00",
+    "toDate": "2024-04-18 00:00:00",
+    "evidenceFolderPath": "svm/namth44",
+    "memberCount": "8",
+    "vacationDestination": "Nghi mat tai Tay Ninh cho nong",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/namth44\\1713851786880_5a46a5b8-3fb8-4dcd-bb2c-9a8757b1c0d9.jpg",
+            "type": "bill",
+            "confidence": 0.8203444480895996,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-date",
+                  "mentionText": "18/04/2024",
+                  "confidence": 0.7146189
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "04363195868",
+                  "confidence": 0.9616123
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/namth44\\1713851786916_004884ae-bf25-4185-bc99-1dead4ed1955.jpg",
+            "type": "image/jpeg",
+            "confidence": 0,
+            "text": "This image cannot be classified",
+            "normalized_value": null
+          }
+        ],
+        [
+          {
+            "file": "svm/namth44\\1713851787210_58350a0f-fd6d-4933-9aaf-a7692eeed13b.jpg",
+            "type": "bill",
+            "confidence": 0.8301107883453369,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "444.028",
+                  "confidence": 0.052616008
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "2.675.000",
+                  "confidence": 0.3262808
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "n\u0103m 20",
+                  "confidence": 0.05626636
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "HAI L\u00daA 35",
+                  "confidence": 0.02660732
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "NGUYEN THI BINH PHUONG",
+                  "confidence": 0.025783135
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "H\u1ebbm 29, Hu\u1ef3nh T\u1ea5n Ph\u00e1t, Hi\u1ec7p Th\u1ea1nh, Hi\u1ec7p Ninh, TP. T\u00e2y Nin",
+                  "confidence": 0.22084104
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-16 22:52:10",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_group_photos",
+        "tripId": "10003107",
+        "memberCount": 8,
+        "message": "No group photos found to validate member count"
+      }
+    ]
+  }
+]
