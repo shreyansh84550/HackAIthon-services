@@ -3,6 +3,7 @@ import json
 from datetime import datetime
 from typing import List, Dict
 from processFolder import process_files_in_folder
+from validateAnomalies import processJSONdetectAnamoly
 
 def read_and_process_json(json_folder):
     """
@@ -46,9 +47,26 @@ def read_and_process_json(json_folder):
                 with open(file_path, 'w') as f:
                     json.dump(processed_trips, f, indent=2)
                 print(f"Updated {json_file} with processed data")
-                    
+                #DO the validation now for the JSON processed
+                print(f"Validation of {json_file} started...")
+                returnAnamolyResult = processJSONdetectAnamoly("jsonFiles/" + json_file)
+                print(f"Validation of {json_file} returned with ",returnAnamolyResult)
+                if len(returnAnamolyResult) == 0:
+                    finalResult = {
+                        "status": "Successul Validation",
+                    }
+                else:
+                    finalResult = {
+                        "Comments":returnAnamolyResult,
+                        "status": "Error Validation",
+                    }
+                all_processed_trips.append(finalResult)
+                with open(file_path, 'w') as filef:
+                    json.dump(all_processed_trips, filef, indent=2)
+                print(f"Validation of {json_file} Finished!!!")
+    
         except Exception as e:
-            print(f"Error processing {json_file}: {str(e)}")
+            print(f"Error processing ----> {json_file}: {str(e)}")
             continue
             
     return all_processed_trips
@@ -71,11 +89,11 @@ def process_trip(trip_data: Dict) -> Dict:
         # Create the processed trip object (including original data plus processing results)
         processed_trip = {
             **trip_data,  # Include all original data
-            'evidenceVerification': {
+            'classfication': {
                 'duration_days': (to_date - from_date).days,
                 'extracted_entities': entities,
                 'processing_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-                'status': 'success'
+                'status': 'Finished'
             }
         }
         

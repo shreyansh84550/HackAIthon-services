@@ -45,7 +45,7 @@ def processFile( filePath
 
     #determine the mime type
     mime_type = magic.from_file(file_path, mime=True)
-    print("The mime value is :", mime_type)
+    #print("The mime value is :", mime_type)
     if mime_type == "":
         print("Not a valid file:", file_path)
         return
