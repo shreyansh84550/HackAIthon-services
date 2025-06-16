@@ -20,6 +20,7 @@ from google.api_core.client_options import ClientOptions
 from google.cloud import documentai  # type: ignore
 import magic
 from imageCountValidation import count_faces, detect_faces
+from billreceiptValidation import processDocument
 
 # TODO(developer): Uncomment these variables before running the sample.
 # project_id = "YOUR_PROJECT_ID"
@@ -116,27 +117,26 @@ def processFile( filePath
         if main_entity["type"] == "group-photo":
             # Call image validation function
             image_validation_result = detect_faces(file_path)
-            face_count = count_faces(image_validation_result)
-            image_analysis_entity = [
-                {
-                    "face_count": face_count
-                }
-            ]
-            highest_confidence_entities[0]["image_analysis"] = image_analysis_entity
-            print("The return from group-photo output:" , highest_confidence_entities)
+            #image_analysis_entity = count_faces(image_validation_result)
+            #image_analysis_entity = [
+            #    {
+            #        "face_count": face_count,
+            #        "validationResult": image_validation_result
+            #    }
+            #]
+            highest_confidence_entities[0]["image_analysis"] = image_validation_result
+            #print("The return from group-photo output:" , highest_confidence_entities)
             return highest_confidence_entities  # type: ignore
-        #elif main_entity["type"] == "bill":
-        #    # Call bill processing function
-        #    bill_processing_result = detect_faces(file_path)
-        #    highest_confidence_entities[0]["processing_results"] = bill_processing_result
-        #    return highest_confidence_entities #type: ignore
+        elif main_entity["type"] == "bill":
+            # Call bill processing function
+            bill_processing_result = processDocument(file_path)
+            highest_confidence_entities[0]["processing_results"] = bill_processing_result
+            return highest_confidence_entities #type: ignore
         else:
             # Handle other entity types or return as is
             return highest_confidence_entities # type: ignore
     else:
         return None
-
-    return highest_confidence_entities # type: ignore
 
 # [END documentai_process_document]
 

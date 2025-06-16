@@ -61,11 +61,11 @@ def processUploadedFile(uploadedFile):
             #write to JSON file
             jsonFilePath = "jsonFiles/" + str(tripId) + ".json"
             fieldnames = ['rowId','tripId', 'fromDate', 'toDate','evidenceFolderPath','memberCount','vacationDestination']
-            print("The completeExtractedData is :" , completeExtractedData)    
+            #print("The completeExtractedData is :" , completeExtractedData)    
             csv_string_noheaders_to_json(completeExtractedData, jsonFilePath,fieldnames)
     # Start processing the JSON files
     classifyTripsResults = read_and_process_json("jsonFiles")
-    print("The trips processed are : ", classifyTripsResults)
+    #print("The trips processed are : ", classifyTripsResults)
 
 def csv_string_noheaders_to_json(csv_string, json_file_path, fieldnames, delimiter=','):
     """

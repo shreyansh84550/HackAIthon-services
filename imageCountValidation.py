@@ -78,10 +78,10 @@ def detect_faces(image_path):
         )
         
         # Check for HTTP errors
-        response.raise_for_status()
-        
-        return response.json()
-    
+        #response.raise_for_status()
+        returnFilteredData = filter_face_annotations(response.json())
+        return returnFilteredData
+        #return response.json()
     except Exception as e:
         print(f"Error in detect_faces: {str(e)}")
         return {'error': {'message': str(e)}}
@@ -110,10 +110,41 @@ def count_faces(api_response):
     face_annotations = first_response.get('faceAnnotations', [])
     
     # Debug print to see what's being detected
-    print(f"Face detection details: {json.dumps(face_annotations, indent=2)}")
+    #print(f"Face detection details: {json.dumps(face_annotations, indent=2)}")
     
     return len(face_annotations)
- 
+
+def filter_face_annotations(input_json):
+    """Filter face annotations to include only those with detectionConfidence > 75% and remove landmarks."""
+    try:
+        # Parse the input JSON
+        data = json.loads(input_json) if isinstance(input_json, str) else input_json
+       
+               # Create a new response structure
+        filtered_response = {"responses": [{"faceAnnotations": []}]}
+       
+        # Fields to remove
+        fields_to_remove = {"landmarks", "fdBoundingPoly", "boundingPoly"}
+       
+        # Process face annotations
+        filtered_faces = []
+        for face in data["responses"][0]["faceAnnotations"]:
+            if face.get("detectionConfidence", 0) > 0.50:
+                filtered_face = {k: v for k, v in face.items()
+                               if k not in fields_to_remove}
+                filtered_faces.append(filtered_face)
+       
+        # Create the new structure
+        result = {
+            "no_of_faces_detected": len(filtered_faces),
+            "face_annotations": filtered_faces,
+        }
+       
+        return result
+   
+    except Exception as e:
+        print(f"Error processing JSON: {str(e)}")
+        return None 
  
 # Example usage
 if __name__ == "__main__":

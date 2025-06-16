@@ -71,7 +71,7 @@ def process_trip(trip_data: Dict) -> Dict:
         # Create the processed trip object (including original data plus processing results)
         processed_trip = {
             **trip_data,  # Include all original data
-            'classfication': {
+            'evidenceVerification': {
                 'duration_days': (to_date - from_date).days,
                 'extracted_entities': entities,
                 'processing_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),

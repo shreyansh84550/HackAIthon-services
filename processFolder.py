@@ -14,7 +14,7 @@ def process_files_in_folder(folder_path):
             returnSingleFileOutput = process_single_file(folder_path, filename)
             outputEntities.append(returnSingleFileOutput)
     
-    print ("The full return Output,",  outputEntities)
+    #print ("The full return Output,",  outputEntities)
     return outputEntities
 
 def process_single_file(folder_path, filename):
@@ -28,6 +28,6 @@ def process_single_file(folder_path, filename):
     file_path = os.path.join(folder_path, filename)
     print(f"Processing file: {file_path}")
     processDocumentResult = processFile(file_path)
-    print(f"The Result is: " , processDocumentResult)
+    #print(f"The Result is: " , processDocumentResult)
     return processDocumentResult
 
