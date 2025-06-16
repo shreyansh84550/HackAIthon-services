@@ -3,6 +3,8 @@ import json
 import time
 import requests
 import jwt  # This is PyJWT
+
+
  
 def get_access_token(service_account_info):
     """Generate an access token using service account credentials."""
@@ -32,6 +34,9 @@ def get_access_token(service_account_info):
         }
     )
     return response.json()['access_token']
+
+def extract_images_from_pdf(pdf_path):
+        return convert_from_path(pdf_path)
  
 def detect_faces(image_path):
     service_account_info = {
@@ -119,9 +124,6 @@ def filter_face_annotations(input_json):
     try:
         # Parse the input JSON
         data = json.loads(input_json) if isinstance(input_json, str) else input_json
-       
-               # Create a new response structure
-        filtered_response = {"responses": [{"faceAnnotations": []}]}
        
         # Fields to remove
         fields_to_remove = {"landmarks", "fdBoundingPoly", "boundingPoly"}

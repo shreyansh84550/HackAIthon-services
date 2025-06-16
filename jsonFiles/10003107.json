@@ -32,7 +32,15 @@
             }
           }
         ],
-        null,
+        [
+          {
+            "file": "svm/namth44\\1713851786916_004884ae-bf25-4185-bc99-1dead4ed1955.jpg",
+            "type": "image/jpeg",
+            "confidence": 0,
+            "text": "This image cannot be classified",
+            "normalized_value": null
+          }
+        ],
         [
           {
             "file": "svm/namth44\\1713851787210_58350a0f-fd6d-4933-9aaf-a7692eeed13b.jpg",
@@ -76,7 +84,7 @@
           }
         ]
       ],
-      "processing_date": "2025-06-16 12:20:40",
+      "processing_date": "2025-06-16 15:02:49",
       "status": "success"
     }
   }

@@ -45,7 +45,7 @@ def processFile( filePath
 
     #determine the mime type
     mime_type = magic.from_file(file_path, mime=True)
-    #print("The mime value is :", mime_type)
+    print("The mime value is :", mime_type)
     if mime_type == "":
         print("Not a valid file:", file_path)
         return
@@ -66,10 +66,8 @@ def processFile( filePath
     # Read the file into memory
     with open(file_path, "rb") as fileProcessed:
         file_content = fileProcessed.read()
-
     # Load binary data
     raw_document = documentai.RawDocument(content=file_content, mime_type=mime_type)
-
     # For more information: https://cloud.google.com/document-ai/docs/reference/rest/v1/ProcessOptions
     # Optional: Additional configurations for processing.
     process_options = documentai.ProcessOptions(
@@ -86,18 +84,16 @@ def processFile( filePath
         field_mask=field_mask,
         process_options=process_options,
     )
-
     result = client.process_document(request=request)
-
     # For a full list of `Document` object attributes, reference this page:
     # https://cloud.google.com/document-ai/docs/reference/rest/v1/Document
     document = result.document
-
     # Find the highest confidence value among all entities
     if document.entities :
         max_confidence = max(entity.confidence for entity in document.entities)
     else:
         max_confidence = 0
+    
     # Filter entities to only those with the highest confidence
     highest_confidence_entities = [
         {
@@ -113,7 +109,6 @@ def processFile( filePath
     if highest_confidence_entities:
         # Get the first entity (since they all have the same highest confidence)
         main_entity = highest_confidence_entities[0]
-        
         if main_entity["type"] == "group-photo":
             # Call image validation function
             image_validation_result = detect_faces(file_path)
@@ -134,9 +129,19 @@ def processFile( filePath
             return highest_confidence_entities #type: ignore
         else:
             # Handle other entity types or return as is
+            print("The return from no-calssification output:" , highest_confidence_entities)
             return highest_confidence_entities # type: ignore
     else:
-        return None
+        highest_confidence_entities = [
+            {
+                "file": file_path,
+                "type": mime_type,
+                "confidence": 0,
+                "text": "This image cannot be classified",
+                "normalized_value": None
+            }
+        ]
+        return highest_confidence_entities # type: ignore
 
 # [END documentai_process_document]
 
