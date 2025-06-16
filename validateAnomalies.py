@@ -108,17 +108,7 @@ def detect_anomalies(data):
         exact_match = member_count in face_counts
        
         if not exact_match:
-            if member_count < min_faces:
-                anomalies.append({
-                    'rule': 'member_count_too_low',
-                    'tripId': trip_id,
-                    'memberCount': member_count,
-                    'minFacesDetected': min_faces,
-                    'allFaceCounts': face_counts,
-                    'groupPhotoFiles': group_photo_files,
-                    'message': f"Member count {member_count} is less than minimum faces detected {min_faces} in group photos"
-                })
-            elif member_count > max_faces:
+            if member_count > max_faces:
                 anomalies.append({
                     'rule': 'member_count_too_high',
                     'tripId': trip_id,

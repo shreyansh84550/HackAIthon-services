@@ -54,15 +54,16 @@ def read_and_process_json(json_folder):
                 if len(returnAnamolyResult) == 0:
                     finalResult = {
                         "status": "Successul Validation",
+                        "Comments":returnAnamolyResult,
                     }
                 else:
                     finalResult = {
-                        "Comments":returnAnamolyResult,
                         "status": "Error Validation",
+                        "Comments":returnAnamolyResult,
                     }
-                all_processed_trips.append(finalResult)
+                processed_trips.append(finalResult)
                 with open(file_path, 'w') as filef:
-                    json.dump(all_processed_trips, filef, indent=2)
+                    json.dump(processed_trips, filef, indent=2)
                 print(f"Validation of {json_file} Finished!!!")
     
         except Exception as e:
