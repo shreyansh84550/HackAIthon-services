@@ -1,0 +1,194 @@
+[
+  {
+    "rowId": "17",
+    "tripId": "10003123",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/sonlt13",
+    "memberCount": "10",
+    "vacationDestination": "Hochiminh City Summer Trip",
+    "evidenceVerification": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/sonlt13\\1713749104723_c9382fe0-51c4-4f55-b705-7f801dd4c332.png",
+            "type": "group-photo",
+            "confidence": 0.9827157258987427,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 9,
+              "face_annotations": [
+                {
+                  "rollAngle": -3.2681267,
+                  "panAngle": 4.7239428,
+                  "tiltAngle": -4.5293384,
+                  "detectionConfidence": 0.890625,
+                  "landmarkingConfidence": 0.6890625,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 1.895565,
+                  "panAngle": 12.260189,
+                  "tiltAngle": 1.6103686,
+                  "detectionConfidence": 0.96484375,
+                  "landmarkingConfidence": 0.6010135,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -6.5034266,
+                  "panAngle": -10.911794,
+                  "tiltAngle": -4.8379946,
+                  "detectionConfidence": 0.9765625,
+                  "landmarkingConfidence": 0.6610055,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -4.133124,
+                  "panAngle": 4.2816,
+                  "tiltAngle": 1.18862,
+                  "detectionConfidence": 0.86328125,
+                  "landmarkingConfidence": 0.65448123,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -2.8527997,
+                  "panAngle": -6.9282603,
+                  "tiltAngle": 1.0236778,
+                  "detectionConfidence": 0.9609375,
+                  "landmarkingConfidence": 0.7865041,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -1.7199225,
+                  "panAngle": 4.3978314,
+                  "tiltAngle": 2.54652,
+                  "detectionConfidence": 0.96484375,
+                  "landmarkingConfidence": 0.60422647,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 4.9165726,
+                  "panAngle": -1.8939794,
+                  "tiltAngle": -5.480771,
+                  "detectionConfidence": 0.97265625,
+                  "landmarkingConfidence": 0.79710793,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -2.3868375,
+                  "panAngle": -3.458164,
+                  "tiltAngle": -1.4895499,
+                  "detectionConfidence": 0.984375,
+                  "landmarkingConfidence": 0.71608424,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -1.4655684,
+                  "panAngle": 9.843873,
+                  "tiltAngle": -8.967875,
+                  "detectionConfidence": 0.6328125,
+                  "landmarkingConfidence": 0.61527103,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/sonlt13\\1713749109536_ca3ff14b-4e8a-4e1d-abab-57ef4b6b8a68.png",
+            "type": "bill",
+            "confidence": 0.8995681405067444,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "8 504 000",
+                  "confidence": 0.33162224
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20.04.2024",
+                  "confidence": 0.39051375
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "00960",
+                  "confidence": 0.4061854
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "HOA VIEN",
+                  "confidence": 0.40716293
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "39/79C \u0110\u01b0\u1eddng 102, P.T\u0103ng Nh\u01a1n Ph\u00fa A, Q.9\n0938",
+                  "confidence": 0.38338953
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-16 12:28:24",
+      "status": "success"
+    }
+  }
+]

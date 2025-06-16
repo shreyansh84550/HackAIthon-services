@@ -1,0 +1,51 @@
+[
+  {
+    "rowId": "10",
+    "tripId": "10003116",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/nhattt",
+    "memberCount": "15",
+    "vacationDestination": "Team building in Sala HCM",
+    "evidenceVerification": {
+      "duration_days": 0,
+      "extracted_entities": [
+        null,
+        [
+          {
+            "file": "svm/nhattt\\1713769372068_f79b47d6-f8d5-4706-bec4-dae818c59df7.png",
+            "type": "bill",
+            "confidence": 0.8977634310722351,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3.086.748\u20ab",
+                  "confidence": 0.49806234
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024",
+                  "confidence": 0.81705904
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "2402005889",
+                  "confidence": 0.9915509
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "27 Nguy\u1ec5n V\u0103n B\u00e1, B\u00ecnh Th\u1ecd TP, Th\u1ee7 \u0110\u1ee9c",
+                  "confidence": 0.8211172
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-16 12:25:19",
+      "status": "success"
+    }
+  }
+]

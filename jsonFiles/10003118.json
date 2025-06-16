@@ -1,0 +1,157 @@
+[
+  {
+    "rowId": "12",
+    "tripId": "10003118",
+    "fromDate": "2024-04-21 00:00:00",
+    "toDate": "2024-04-21 00:00:00",
+    "evidenceFolderPath": "svm/trongtt2",
+    "memberCount": "6",
+    "vacationDestination": "Visit The Hung King Temple",
+    "evidenceVerification": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/trongtt2\\1713757524951_197f1e85-4a42-48de-ab1f-63c72ea915c1.jpg",
+            "type": "group-photo",
+            "confidence": 0.9829665422439575,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 6,
+              "face_annotations": [
+                {
+                  "rollAngle": -2.5307434,
+                  "panAngle": -8.303003,
+                  "tiltAngle": -0.7532999,
+                  "detectionConfidence": 0.97265625,
+                  "landmarkingConfidence": 0.58686936,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 4.791048,
+                  "panAngle": 5.405152,
+                  "tiltAngle": 4.593773,
+                  "detectionConfidence": 0.9921875,
+                  "landmarkingConfidence": 0.70828587,
+                  "joyLikelihood": "POSSIBLE",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -8.963739,
+                  "panAngle": -8.401558,
+                  "tiltAngle": 13.557445,
+                  "detectionConfidence": 0.99609375,
+                  "landmarkingConfidence": 0.7133522,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 4.690179,
+                  "panAngle": -2.911769,
+                  "tiltAngle": 6.192094,
+                  "detectionConfidence": 0.9921875,
+                  "landmarkingConfidence": 0.67577046,
+                  "joyLikelihood": "LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -5.729058,
+                  "panAngle": 1.2358859,
+                  "tiltAngle": 3.6976752,
+                  "detectionConfidence": 0.984375,
+                  "landmarkingConfidence": 0.6996696,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -3.09292,
+                  "panAngle": -6.575252,
+                  "tiltAngle": -2.1171968,
+                  "detectionConfidence": 0.9921875,
+                  "landmarkingConfidence": 0.48711893,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "UNLIKELY"
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/trongtt2\\1713757526995_ab5b602c-8165-47f0-bc27-4a854185546b.jpg",
+            "type": "bill",
+            "confidence": 0.8753175735473633,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "880 000",
+                  "confidence": 0.40753272
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "880 000",
+                  "confidence": 0.2580555
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "21.04.2024",
+                  "confidence": 0.812802
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "21.04.2024",
+                  "confidence": 0.5885641
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "\u0110\u1ed3ng Xanh 2",
+                  "confidence": 0.95502084
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "211 Nguy\u1ec5n V\u0103n Linh, P. H\u01b0ng\nL\u1ee3i, Q. Ninh Ki\u1ec1u, TP. \nC\u1ea7n Th\u01a1",
+                  "confidence": 0.6468346
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-16 12:26:11",
+      "status": "success"
+    }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "rowId": "20",
+    "tripId": "10003127",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/thaoptp",
+    "memberCount": "21",
+    "vacationDestination": "Du an Stockwave to chuc team building tai Ha Noi",
+    "processed": {
+      "status": "error",
+      "error": "400 Unsupported MIME type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'. [reason: \"UNSUPPORTED_MIME_TYPE\"\ndomain: \"documentai.googleapis.com\"\nmetadata {\n  key: \"mime_type\"\n  value: \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\"\n}\n]",
+      "processing_date": "2025-06-16 12:28:53"
+    }
+  }
+]
