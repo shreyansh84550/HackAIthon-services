@@ -1,0 +1,240 @@
+[
+  {
+    "rowId": "124",
+    "tripId": "10003235",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/phuongdh1",
+    "memberCount": "7",
+    "vacationDestination": "Ha Noi tour",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/phuongdh1\\1713760968662_6478ad6c-20c2-4dee-bfb1-148a2d9d4ac5.jpg",
+            "type": "bill",
+            "confidence": 0.8136628866195679,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1.435.320 vn\u0111",
+                  "confidence": 0.7284627
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024 - 13:34",
+                  "confidence": 0.92835486
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "00173239",
+                  "confidence": 1.3918483e-36
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "51547007",
+                  "confidence": 0.94098705
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Gogi House Tr\u1ea7n Th\u00e1i T\u00f4ng",
+                  "confidence": 0.38479748
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "103D5A Tr\u1ea7n Th\u00e1i T\u00f4ng, D\u1ecbch V\u1ecdng, C\u1ea7u Gi\u1ea5y, H\u00e0 N\u1ed9i",
+                  "confidence": 0.9206286
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/phuongdh1\\1713760975139_d5469200-306d-4ecf-8265-5f67422ee692.png",
+            "type": "group-photo",
+            "confidence": 0.9834787845611572,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 5,
+              "face_annotations": [
+                {
+                  "rollAngle": -3.7129142,
+                  "panAngle": -1.3750757,
+                  "tiltAngle": 1.0915455,
+                  "detectionConfidence": 0.61328125,
+                  "landmarkingConfidence": 0.7026869,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -25.655144,
+                  "panAngle": -19.291552,
+                  "tiltAngle": -0.19787255,
+                  "detectionConfidence": 0.98046875,
+                  "landmarkingConfidence": 0.42244157,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -8.045872,
+                  "panAngle": 7.648085,
+                  "tiltAngle": -6.1710973,
+                  "detectionConfidence": 0.94921875,
+                  "landmarkingConfidence": 0.5725052,
+                  "joyLikelihood": "POSSIBLE",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -7.431984,
+                  "panAngle": 15.907235,
+                  "tiltAngle": -2.0558896,
+                  "detectionConfidence": 0.78125,
+                  "landmarkingConfidence": 0.08690309,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -5.825988,
+                  "panAngle": 17.843664,
+                  "tiltAngle": 4.019054,
+                  "detectionConfidence": 0.9921875,
+                  "landmarkingConfidence": 0.4671085,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/phuongdh1\\1714706782234_394dffde-390c-4f8c-a791-78159e6c25cc.png",
+            "type": "bill",
+            "confidence": 0.8359778523445129,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1.579.",
+                  "confidence": 0.4887353
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1.329.",
+                  "confidence": 0.49316004
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1.435.320 vn\u0111",
+                  "confidence": 0.70440024
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024-13:34",
+                  "confidence": 0.77530205
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "00173239",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "51547007",
+                  "confidence": 7.136806e-23
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Gogi House Tr\u1ea7n Th\u00e1i T\u00f4ng",
+                  "confidence": 0.38852233
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "103D5A Tr\u1ea7n Th\u00e1i T\u00f4ng, D\u1ecbch V\u1ecdng, C\u1ea7u Gi\u1ea5y, H\u00e0 N\u1ed9i",
+                  "confidence": 0.93319666
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/phuongdh1\\1714706782336_46c8e0cb-e914-42b5-96d1-484fc8d58a9d.png",
+            "type": "bill",
+            "confidence": 0.7844611406326294,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1.329.000 vnd",
+                  "confidence": 0.6713447
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "106.320 vnd",
+                  "confidence": 0.5137455
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1.435.320 vn\u0111",
+                  "confidence": 0.7469956
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 12:10:07",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "member_count_too_high",
+        "tripId": "10003235",
+        "memberCount": 7,
+        "maxFacesDetected": 5,
+        "allFaceCounts": [
+          5
+        ],
+        "groupPhotoFiles": [
+          "svm/phuongdh1\\1713760975139_d5469200-306d-4ecf-8265-5f67422ee692.png"
+        ],
+        "message": "Member count 7 is more than maximum faces detected 5 in group photos"
+      }
+    ]
+  }
+]

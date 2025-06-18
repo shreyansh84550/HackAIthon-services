@@ -20,11 +20,25 @@
               "no_of_faces_detected": 6,
               "face_annotations": [
                 {
-                  "rollAngle": -8.963739,
-                  "panAngle": -8.401558,
-                  "tiltAngle": 13.557445,
-                  "detectionConfidence": 0.99609375,
-                  "landmarkingConfidence": 0.7133522,
+                  "rollAngle": 4.791048,
+                  "panAngle": 5.405152,
+                  "tiltAngle": 4.593773,
+                  "detectionConfidence": 0.9921875,
+                  "landmarkingConfidence": 0.70828587,
+                  "joyLikelihood": "POSSIBLE",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -5.729058,
+                  "panAngle": 1.2358859,
+                  "tiltAngle": 3.6976752,
+                  "detectionConfidence": 0.984375,
+                  "landmarkingConfidence": 0.6996696,
                   "joyLikelihood": "VERY_LIKELY",
                   "sorrowLikelihood": "VERY_UNLIKELY",
                   "angerLikelihood": "VERY_UNLIKELY",
@@ -32,6 +46,20 @@
                   "underExposedLikelihood": "VERY_UNLIKELY",
                   "blurredLikelihood": "VERY_UNLIKELY",
                   "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -3.09292,
+                  "panAngle": -6.575252,
+                  "tiltAngle": -2.1171968,
+                  "detectionConfidence": 0.9921875,
+                  "landmarkingConfidence": 0.48711893,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "UNLIKELY"
                 },
                 {
                   "rollAngle": 4.690179,
@@ -62,11 +90,11 @@
                   "headwearLikelihood": "VERY_UNLIKELY"
                 },
                 {
-                  "rollAngle": -5.729058,
-                  "panAngle": 1.2358859,
-                  "tiltAngle": 3.6976752,
-                  "detectionConfidence": 0.984375,
-                  "landmarkingConfidence": 0.6996696,
+                  "rollAngle": -8.963739,
+                  "panAngle": -8.401558,
+                  "tiltAngle": 13.557445,
+                  "detectionConfidence": 0.99609375,
+                  "landmarkingConfidence": 0.7133522,
                   "joyLikelihood": "VERY_LIKELY",
                   "sorrowLikelihood": "VERY_UNLIKELY",
                   "angerLikelihood": "VERY_UNLIKELY",
@@ -74,34 +102,6 @@
                   "underExposedLikelihood": "VERY_UNLIKELY",
                   "blurredLikelihood": "VERY_UNLIKELY",
                   "headwearLikelihood": "VERY_UNLIKELY"
-                },
-                {
-                  "rollAngle": 4.791048,
-                  "panAngle": 5.405152,
-                  "tiltAngle": 4.593773,
-                  "detectionConfidence": 0.9921875,
-                  "landmarkingConfidence": 0.70828587,
-                  "joyLikelihood": "POSSIBLE",
-                  "sorrowLikelihood": "VERY_UNLIKELY",
-                  "angerLikelihood": "VERY_UNLIKELY",
-                  "surpriseLikelihood": "VERY_UNLIKELY",
-                  "underExposedLikelihood": "VERY_UNLIKELY",
-                  "blurredLikelihood": "VERY_UNLIKELY",
-                  "headwearLikelihood": "VERY_UNLIKELY"
-                },
-                {
-                  "rollAngle": -3.09292,
-                  "panAngle": -6.575252,
-                  "tiltAngle": -2.1171968,
-                  "detectionConfidence": 0.9921875,
-                  "landmarkingConfidence": 0.48711893,
-                  "joyLikelihood": "VERY_UNLIKELY",
-                  "sorrowLikelihood": "UNLIKELY",
-                  "angerLikelihood": "VERY_UNLIKELY",
-                  "surpriseLikelihood": "VERY_UNLIKELY",
-                  "underExposedLikelihood": "VERY_UNLIKELY",
-                  "blurredLikelihood": "VERY_UNLIKELY",
-                  "headwearLikelihood": "UNLIKELY"
                 }
               ]
             }
@@ -118,39 +118,34 @@
                 {
                   "type": "bill-amount",
                   "mentionText": "880 000",
-                  "confidence": 0.40753272
+                  "confidence": 0.6342565
                 },
                 {
-                  "type": "bill-amount",
-                  "mentionText": "880 000",
-                  "confidence": 0.2580555
+                  "type": "bill-date",
+                  "mentionText": "21.04.2024 16.39",
+                  "confidence": 0.87397164
                 },
                 {
                   "type": "bill-date",
                   "mentionText": "21.04.2024",
-                  "confidence": 0.812802
-                },
-                {
-                  "type": "bill-date",
-                  "mentionText": "21.04.2024",
-                  "confidence": 0.5885641
+                  "confidence": 0.3272339
                 },
                 {
                   "type": "vendor",
                   "mentionText": "\u0110\u1ed3ng Xanh 2",
-                  "confidence": 0.95502084
+                  "confidence": 0.37073603
                 },
                 {
                   "type": "vendor-address",
                   "mentionText": "211 Nguy\u1ec5n V\u0103n Linh, P. H\u01b0ng\nL\u1ee3i, Q. Ninh Ki\u1ec1u, TP. \nC\u1ea7n Th\u01a1",
-                  "confidence": 0.6468346
+                  "confidence": 0.9376516
                 }
               ]
             }
           }
         ]
       ],
-      "processing_date": "2025-06-16 22:57:55",
+      "processing_date": "2025-06-18 10:40:44",
       "status": "Finished"
     }
   },

@@ -1,0 +1,98 @@
+[
+  {
+    "rowId": "132",
+    "tripId": "10003244",
+    "fromDate": "2024-04-21 00:00:00",
+    "toDate": "2024-04-21 00:00:00",
+    "evidenceFolderPath": "svm/hangnt20",
+    "memberCount": "17",
+    "vacationDestination": "Picnic Cong Vien yen so",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/hangnt20\\1713838816373_160bfad9-8a42-4aa5-b730-5cc2177b8950.png",
+            "type": "bill",
+            "confidence": 0.913631796836853,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3.981.000",
+                  "confidence": 0.476584
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024",
+                  "confidence": 0.93617827
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024\n19:18",
+                  "confidence": 0.92236155
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "PBMART HOA \u0110\u00c0O",
+                  "confidence": 0.3700534
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "S\u1ed0 63 LA N\u1ed8I, D\u01af\u01a0NG N\u1ed8I, H\u00c0 \u0110\u00d4NG",
+                  "confidence": 0.57952785
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/hangnt20\\1713838832568_93af23d1-42eb-4ac0-b274-c060ac3b4c72.png",
+            "type": "image/jpeg",
+            "confidence": 0,
+            "text": "This image cannot be classified",
+            "normalized_value": null
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 12:13:50",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_group_photos",
+        "tripId": "10003244",
+        "memberCount": 17,
+        "message": "No group photos found to validate member count"
+      },
+      {
+        "rule": "bill_date_out_of_range",
+        "tripId": "10003244",
+        "tripDates": "2024-04-21 to 2024-04-21",
+        "billDate": "2024-04-20",
+        "confidence": 0.93617827,
+        "source": "svm/hangnt20\\1713838816373_160bfad9-8a42-4aa5-b730-5cc2177b8950.png",
+        "message": "Bill date outside trip date range"
+      },
+      {
+        "rule": "bill_date_out_of_range",
+        "tripId": "10003244",
+        "tripDates": "2024-04-21 to 2024-04-21",
+        "billDate": "2024-04-20",
+        "confidence": 0.92236155,
+        "source": "svm/hangnt20\\1713838816373_160bfad9-8a42-4aa5-b730-5cc2177b8950.png",
+        "message": "Bill date outside trip date range"
+      },
+      {
+        "rule": "no_valid_bill_dates",
+        "tripId": "10003244",
+        "message": "No bills found within trip date range"
+      }
+    ]
+  }
+]

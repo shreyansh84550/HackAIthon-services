@@ -1,0 +1,174 @@
+[
+  {
+    "rowId": "99",
+    "tripId": "10003210",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-21 00:00:00",
+    "evidenceFolderPath": "svm/vyntt6",
+    "memberCount": "8",
+    "vacationDestination": "Son Tra",
+    "classfication": {
+      "duration_days": 1,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/vyntt6\\1714099770919_2e31dc1b-de2e-4c9e-b1fa-07a63ee2df79.png",
+            "type": "image/png",
+            "confidence": 0,
+            "text": "This image cannot be classified",
+            "normalized_value": null
+          }
+        ],
+        [
+          {
+            "file": "svm/vyntt6\\1714099776416_e0180773-91d5-40ad-8df4-10e80ebadb33.png",
+            "type": "bill",
+            "confidence": 0.7052832841873169,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": ".000.000",
+                  "confidence": 0.0775224
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/44/2024",
+                  "confidence": 0.02222573
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "21/442024",
+                  "confidence": 0.0028915256
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "/4/2024",
+                  "confidence": 6.9238813e-06
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/4/2024",
+                  "confidence": 0.15376507
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Maison Mansard\u00e9e Villa",
+                  "confidence": 0.33834994
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Maison Mansard\u00e9e Villa",
+                  "confidence": 0.36139432
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "02-04 L\u00fd T\u1eed T\u00e2n - Qu\u1eadn S\u01a1n Tr\u00e0, \u0110\u00e0 N\u1eb5ng",
+                  "confidence": 0.89043033
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/vyntt6\\1714099886848_c1d15dbe-6155-4c68-99f4-7ff17434a859.png",
+            "type": "bill",
+            "confidence": 0.7054675817489624,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-date",
+                  "mentionText": "20 Th\u00e1ng 4. N\u0103m 20261",
+                  "confidence": 0.08466648
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/vyntt6\\1714099891338_b19fdaa4-9272-4781-be85-f2c40d6142f8.png",
+            "type": "bill",
+            "confidence": 0.7124952673912048,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "4.000.000 vn\u0111",
+                  "confidence": 0.566989
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "4.000.000 vnd",
+                  "confidence": 0.46349952
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "2.000.000",
+                  "confidence": 0.39190587
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "2.000.000",
+                  "confidence": 0.39914736
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/4/024",
+                  "confidence": 0.49910328
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "02-04 L\u00fd",
+                  "confidence": 0.19883977
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/4/2024_",
+                  "confidence": 0.46048078
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "21/4/2024 \u2013",
+                  "confidence": 0.38880047
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/4/2024",
+                  "confidence": 0.85694885
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "Th\u1ecb 1 thg 4",
+                  "confidence": 0.013839671
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "Tr\u00e0, \u0110\u00e0 N\u1eb5ng",
+                  "confidence": 0.0018320836
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 11:57:14",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_group_photos",
+        "tripId": "10003210",
+        "memberCount": 8,
+        "message": "No group photos found to validate member count"
+      }
+    ]
+  }
+]

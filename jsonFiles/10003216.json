@@ -1,0 +1,72 @@
+[
+  {
+    "rowId": "105",
+    "tripId": "10003216",
+    "fromDate": "2024-04-18 00:00:00",
+    "toDate": "2024-04-21 00:00:00",
+    "evidenceFolderPath": "svm/anhlv16",
+    "memberCount": "10",
+    "vacationDestination": "Da Nang",
+    "classfication": {
+      "duration_days": 3,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/anhlv16\\1714013260054_d6fed9ee-df7d-434a-be58-fad99447d8c3.jpg",
+            "type": "group-photo",
+            "confidence": 0.7902534008026123,
+            "normalized_value": null,
+            "image_analysis": null
+          }
+        ],
+        [
+          {
+            "file": "svm/anhlv16\\1714013260160_ecc45d9d-2bb2-45b7-8d70-65b1d0804e63.jpg",
+            "type": "group-photo",
+            "confidence": 0.93311607837677,
+            "normalized_value": null,
+            "image_analysis": null
+          }
+        ],
+        [
+          {
+            "file": "svm/anhlv16\\1714013260253_5e8fc72e-7b15-48c6-9226-fd4702b649b1.jpg",
+            "type": "image/jpeg",
+            "confidence": 0,
+            "text": "This image cannot be classified",
+            "normalized_value": null
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 12:00:21",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "missing_image_analysis",
+        "tripId": "10003216",
+        "file": "svm/anhlv16\\1714013260054_d6fed9ee-df7d-434a-be58-fad99447d8c3.jpg",
+        "message": "Group photo has no image analysis data"
+      },
+      {
+        "rule": "missing_image_analysis",
+        "tripId": "10003216",
+        "file": "svm/anhlv16\\1714013260160_ecc45d9d-2bb2-45b7-8d70-65b1d0804e63.jpg",
+        "message": "Group photo has no image analysis data"
+      },
+      {
+        "rule": "no_face_detection",
+        "tripId": "10003216",
+        "memberCount": 10,
+        "groupPhotoFiles": [
+          "svm/anhlv16\\1714013260054_d6fed9ee-df7d-434a-be58-fad99447d8c3.jpg",
+          "svm/anhlv16\\1714013260160_ecc45d9d-2bb2-45b7-8d70-65b1d0804e63.jpg"
+        ],
+        "message": "Group photos found but no face detection data available"
+      }
+    ]
+  }
+]

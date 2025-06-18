@@ -1,0 +1,142 @@
+[
+  {
+    "rowId": "81",
+    "tripId": "10003191",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-21 00:00:00",
+    "evidenceFolderPath": "svm/nhuongnv1",
+    "memberCount": "55",
+    "vacationDestination": "Sapphire Villa B",
+    "classfication": {
+      "duration_days": 1,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/nhuongnv1\\1713924960731_d5257c76-10a1-49b9-b193-c36a30536ba0.jpg",
+            "type": "bill",
+            "confidence": 0.6619799137115479,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-date",
+                  "mentionText": "20 th\u00e1ng 4 n\u0103m 2024",
+                  "confidence": 0.5581771
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "TICO TRAVEL",
+                  "confidence": 0.39187595
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "h\u1ed3 \u0110\u1ed3ng \u0110\u00f2, Minh Tr\u00ed, S\u00f3c S\u01a1n.",
+                  "confidence": 0.8961377
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/nhuongnv1\\1713924965945_af98fd40-0f62-4d65-8696-7f5e0db9e674.jpg",
+            "type": "bill",
+            "confidence": 0.74793940782547,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "17,500,000",
+                  "confidence": 0.6383898
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "6,500,000",
+                  "confidence": 0.5650535
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "11,000,000",
+                  "confidence": 0.57200813
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/4\n12h00 ng\u00e0y 21/4",
+                  "confidence": 0.046380945
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "168497990",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "0336283407",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "888888888668",
+                  "confidence": 0
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "TICO TRAVEL",
+                  "confidence": 0.3825749
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "L205 - K\u0110T Goldsilk- V\u1ea1n Ph\u00fac - H\u00e0 \u0110\u00f4ng- H\u00e0 N\u1ed9i",
+                  "confidence": 0.023297375
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "Tr\u00e0ng An, B\u00ecnh L\u1ee5c, H\u00e0 Nam",
+                  "confidence": 0.22092801
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "H\u00e0 N\u1ed9i",
+                  "confidence": 0.040699918
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "H\u00e0 N\u1ed9i",
+                  "confidence": 0.03708019
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/nhuongnv1\\1714645027880_5b400ca2-e87f-4131-8ad0-fa90ebe5318f.png",
+            "type": "image/png",
+            "confidence": 0,
+            "text": "This image cannot be classified",
+            "normalized_value": null
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 11:23:12",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_group_photos",
+        "tripId": "10003191",
+        "memberCount": 55,
+        "message": "No group photos found to validate member count"
+      },
+      {
+        "rule": "no_bill_dates_found",
+        "tripId": "10003191",
+        "message": "Bills found but no dates could be extracted from them"
+      }
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "rowId": "115",
+    "tripId": "10003226",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/linhnt54",
+    "memberCount": "6",
+    "vacationDestination": "Thu Le Park and luch at 8F Landmark 72",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/linhnt54\\1713759139565_3ad3bc92-ef33-4e33-9f31-75a0e409ce1d.png",
+            "type": "bill",
+            "confidence": 0.7752463221549988,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "240.000",
+                  "confidence": 0.72464436
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20 th\u00e1ng 04 n\u0103m 2024",
+                  "confidence": 0.5538505
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "10-8600-0242",
+                  "confidence": 0.064740956
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024",
+                  "confidence": 0.019605758
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "TH\u1ee6 H\u00c0 N\u1ed8I",
+                  "confidence": 0.001449196
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "Th\u1ee7 L\u1ec7, ph\u01b0\u1eddng Ng\u1ecdc Khanh, qu\u1eadn Ba \u0110\u00ecnh\nTh\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+                  "confidence": 0.008557599
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/linhnt54\\1713759139644_62be9cef-2a3b-4639-9c9a-47edb128e721.png",
+            "type": "bill",
+            "confidence": 0.8898783326148987,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1.242.000\u20ab",
+                  "confidence": 0.733803
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024 (11:00 - 12:36)",
+                  "confidence": 0.9301267
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "2401001485",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Nh\u00e0 h\u00e0ng Manna Bean",
+                  "confidence": 0.39086193
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "T\u1ea7ng 8, Keangnam Landmark 72",
+                  "confidence": 0.1611988
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/linhnt54\\1713759140110_b95637a9-5df7-4f4b-953d-9aac040c7698.png",
+            "type": "group-photo",
+            "confidence": 0.9807099103927612,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 7,
+              "face_annotations": [
+                {
+                  "rollAngle": -8.858196,
+                  "panAngle": -16.419827,
+                  "tiltAngle": -1.8900374,
+                  "detectionConfidence": 0.80078125,
+                  "landmarkingConfidence": 0.48806205,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -33.636272,
+                  "panAngle": -7.2890854,
+                  "tiltAngle": 17.251759,
+                  "detectionConfidence": 0.73046875,
+                  "landmarkingConfidence": 0.66238725,
+                  "joyLikelihood": "POSSIBLE",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 2.3193178,
+                  "panAngle": 3.4205704,
+                  "tiltAngle": -9.080416,
+                  "detectionConfidence": 0.6640625,
+                  "landmarkingConfidence": 0.61738616,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 3.3264303,
+                  "panAngle": 17.756628,
+                  "tiltAngle": -5.3361893,
+                  "detectionConfidence": 0.93359375,
+                  "landmarkingConfidence": 0.4725141,
+                  "joyLikelihood": "POSSIBLE",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 0.10135281,
+                  "panAngle": 32.374928,
+                  "tiltAngle": 1.4823163,
+                  "detectionConfidence": 0.5703125,
+                  "landmarkingConfidence": 0.028304508,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -20.094202,
+                  "panAngle": -14.297738,
+                  "tiltAngle": 1.9703411,
+                  "detectionConfidence": 0.98828125,
+                  "landmarkingConfidence": 0.6069032,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 6.978037,
+                  "panAngle": 20.106647,
+                  "tiltAngle": -0.20957968,
+                  "detectionConfidence": 0.9765625,
+                  "landmarkingConfidence": 0.6977065,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 12:04:58",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Successul Validation",
+    "Comments": []
+  }
+]

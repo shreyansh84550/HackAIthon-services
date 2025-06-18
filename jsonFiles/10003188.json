@@ -1,0 +1,211 @@
+[
+  {
+    "rowId": "78",
+    "tripId": "10003188",
+    "fromDate": "2024-04-26 00:00:00",
+    "toDate": "2024-05-01 00:00:00",
+    "evidenceFolderPath": "svm/thienntn",
+    "memberCount": "8",
+    "vacationDestination": "Trekking Fansipan",
+    "classfication": {
+      "duration_days": 5,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/thienntn\\1714621294337_13de3e37-d149-4dcf-9c2a-91202cff61da.pdf",
+            "type": "booking",
+            "confidence": 0.9057344198226929,
+            "normalized_value": null
+          }
+        ],
+        [
+          {
+            "file": "svm/thienntn\\1714621294351_cb07669d-89e9-4e54-900a-11dbf01183d2.pdf",
+            "type": "booking",
+            "confidence": 0.9060810208320618,
+            "normalized_value": null
+          }
+        ],
+        [
+          {
+            "file": "svm/thienntn\\1714621294398_4c42d7ba-7051-441b-89ff-27ce112b011e.pdf",
+            "type": "booking",
+            "confidence": 0.9063555598258972,
+            "normalized_value": null
+          }
+        ],
+        [
+          {
+            "file": "svm/thienntn\\1714621294398_d009b06d-e80d-4a63-b243-08e11d004897.pdf",
+            "type": "booking",
+            "confidence": 0.9059739708900452,
+            "normalized_value": null
+          }
+        ],
+        [
+          {
+            "file": "svm/thienntn\\1714621294403_cfab9605-133a-4cc4-b2a1-385159185c48.pdf",
+            "type": "booking",
+            "confidence": 0.9062967300415039,
+            "normalized_value": null
+          }
+        ],
+        [
+          {
+            "file": "svm/thienntn\\1714621294429_ea76af53-2e03-471d-b95b-a69e0016216f.pdf",
+            "type": "booking",
+            "confidence": 0.9060742259025574,
+            "normalized_value": null
+          }
+        ],
+        [
+          {
+            "file": "svm/thienntn\\1714621294442_a4511bcc-d1e3-41d6-af82-cad819302dcc.pdf",
+            "type": "booking",
+            "confidence": 0.9061588644981384,
+            "normalized_value": null
+          }
+        ],
+        [
+          {
+            "file": "svm/thienntn\\1714621294450_d108e94b-98fb-4305-bb7e-0f83a254edd7.pdf",
+            "type": "booking",
+            "confidence": 0.9060811400413513,
+            "normalized_value": null
+          }
+        ],
+        [
+          {
+            "file": "svm/thienntn\\1714621294663_337e43fd-5ac8-4024-823c-312c6b080d40.png",
+            "type": "group-photo",
+            "confidence": 0.9736782312393188,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 8,
+              "face_annotations": [
+                {
+                  "rollAngle": 13.396571,
+                  "panAngle": 14.77662,
+                  "tiltAngle": -2.017315,
+                  "detectionConfidence": 0.9375,
+                  "landmarkingConfidence": 0.42285356,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_LIKELY"
+                },
+                {
+                  "rollAngle": -1.5507003,
+                  "panAngle": 0.94460654,
+                  "tiltAngle": -6.629534,
+                  "detectionConfidence": 0.640625,
+                  "landmarkingConfidence": 0.80298245,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_LIKELY"
+                },
+                {
+                  "rollAngle": 0.42527458,
+                  "panAngle": 8.568665,
+                  "tiltAngle": 1.4913968,
+                  "detectionConfidence": 0.83203125,
+                  "landmarkingConfidence": 0.52348924,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_LIKELY"
+                },
+                {
+                  "rollAngle": -3.3207493,
+                  "panAngle": -4.9829817,
+                  "tiltAngle": 1.8135241,
+                  "detectionConfidence": 0.93359375,
+                  "landmarkingConfidence": 0.6868478,
+                  "joyLikelihood": "LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_LIKELY"
+                },
+                {
+                  "rollAngle": -4.1883845,
+                  "panAngle": 9.359217,
+                  "tiltAngle": 1.3351439,
+                  "detectionConfidence": 0.86328125,
+                  "landmarkingConfidence": 0.71224236,
+                  "joyLikelihood": "POSSIBLE",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_LIKELY"
+                },
+                {
+                  "rollAngle": -0.009744688,
+                  "panAngle": 8.127622,
+                  "tiltAngle": 3.480112,
+                  "detectionConfidence": 0.83984375,
+                  "landmarkingConfidence": 0.58589745,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_LIKELY"
+                },
+                {
+                  "rollAngle": -3.8391557,
+                  "panAngle": -2.1258497,
+                  "tiltAngle": 1.1982437,
+                  "detectionConfidence": 0.81640625,
+                  "landmarkingConfidence": 0.6565624,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_LIKELY"
+                },
+                {
+                  "rollAngle": -7.4828362,
+                  "panAngle": 0.13659486,
+                  "tiltAngle": -8.787119,
+                  "detectionConfidence": 0.7890625,
+                  "landmarkingConfidence": 0.74616873,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_LIKELY"
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 11:20:42",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Successul Validation",
+    "Comments": []
+  }
+]

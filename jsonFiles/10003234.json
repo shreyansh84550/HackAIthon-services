@@ -1,0 +1,586 @@
+[
+  {
+    "rowId": "123",
+    "tripId": "10003234",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-21 00:00:00",
+    "evidenceFolderPath": "svm/duyltp",
+    "memberCount": "18",
+    "vacationDestination": "DSF Summer Vacation 2024",
+    "classfication": {
+      "duration_days": 1,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/duyltp\\1713237745409_8bec1ce3-9bb1-47da-b2f6-a46fabf6e21d.jpeg",
+            "type": "bill",
+            "confidence": 0.8784052729606628,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "5.255.000",
+                  "confidence": 0.45849508
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "5.675.400",
+                  "confidence": 0.7095971
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3.420.000",
+                  "confidence": 0.47223857
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "342,000",
+                  "confidence": 0.48719472
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "9437.400",
+                  "confidence": 0.69708025
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3.762.000",
+                  "confidence": 0.44573897
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "14/04/2024",
+                  "confidence": 0.9437916
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "14/04/2024",
+                  "confidence": 0.90126556
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "230240",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "230239",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "THE GANGS CENTRAL",
+                  "confidence": 0.36780632
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "87 Nguy\u1ec5n Hu\u1ec7 v\u00e0 98 H\u1ed3 T\u00f9ng M\u1eadu, Qu\u1eadn 1,\n0937",
+                  "confidence": 0.92002046
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/duyltp\\1713237745658_137581f5-f439-459a-af76-343e6c767d91.jpeg",
+            "type": "group-photo",
+            "confidence": 0.9837822318077087,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 17,
+              "face_annotations": [
+                {
+                  "rollAngle": -11.662709,
+                  "panAngle": -14.683829,
+                  "tiltAngle": -2.476505,
+                  "detectionConfidence": 0.89453125,
+                  "landmarkingConfidence": 0.58371216,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -7.1490088,
+                  "panAngle": -11.427707,
+                  "tiltAngle": -1.0911741,
+                  "detectionConfidence": 0.87890625,
+                  "landmarkingConfidence": 0.7032736,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 0.7510964,
+                  "panAngle": -12.3413925,
+                  "tiltAngle": 1.2051773,
+                  "detectionConfidence": 0.5703125,
+                  "landmarkingConfidence": 0.5924714,
+                  "joyLikelihood": "POSSIBLE",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -12.628596,
+                  "panAngle": 14.374748,
+                  "tiltAngle": 9.324305,
+                  "detectionConfidence": 0.58203125,
+                  "landmarkingConfidence": 0.33905506,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "LIKELY"
+                },
+                {
+                  "rollAngle": 5.481291,
+                  "panAngle": 17.730032,
+                  "tiltAngle": 0.657685,
+                  "detectionConfidence": 0.921875,
+                  "landmarkingConfidence": 0.4262394,
+                  "joyLikelihood": "POSSIBLE",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -8.964515,
+                  "panAngle": 16.808619,
+                  "tiltAngle": 6.2357154,
+                  "detectionConfidence": 0.83984375,
+                  "landmarkingConfidence": 0.44470978,
+                  "joyLikelihood": "POSSIBLE",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -4.2893295,
+                  "panAngle": -16.369574,
+                  "tiltAngle": 9.363767,
+                  "detectionConfidence": 0.9609375,
+                  "landmarkingConfidence": 0.5985696,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -0.35497478,
+                  "panAngle": 16.379818,
+                  "tiltAngle": 0.2574863,
+                  "detectionConfidence": 0.8828125,
+                  "landmarkingConfidence": 0.59247094,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -16.221493,
+                  "panAngle": -21.168413,
+                  "tiltAngle": 7.2561975,
+                  "detectionConfidence": 0.8828125,
+                  "landmarkingConfidence": 0.41048178,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -11.4928875,
+                  "panAngle": 34.89823,
+                  "tiltAngle": 4.577539,
+                  "detectionConfidence": 0.92578125,
+                  "landmarkingConfidence": 0.43394035,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -20.841402,
+                  "panAngle": -57.254883,
+                  "tiltAngle": -0.32967448,
+                  "detectionConfidence": 0.796875,
+                  "landmarkingConfidence": 0.308064,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -8.37386,
+                  "panAngle": 26.841513,
+                  "tiltAngle": -2.2755253,
+                  "detectionConfidence": 0.93359375,
+                  "landmarkingConfidence": 0.36424428,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -7.500124,
+                  "panAngle": -11.682988,
+                  "tiltAngle": -7.819837,
+                  "detectionConfidence": 0.98046875,
+                  "landmarkingConfidence": 0.7741584,
+                  "joyLikelihood": "UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 1.4299326,
+                  "panAngle": -10.633667,
+                  "tiltAngle": 2.1191394,
+                  "detectionConfidence": 0.875,
+                  "landmarkingConfidence": 0.65892434,
+                  "joyLikelihood": "POSSIBLE",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -0.68615574,
+                  "panAngle": 6.067096,
+                  "tiltAngle": 11.531827,
+                  "detectionConfidence": 0.66796875,
+                  "landmarkingConfidence": 0.40891233,
+                  "joyLikelihood": "LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 15.243853,
+                  "panAngle": 40.040024,
+                  "tiltAngle": 0.9477041,
+                  "detectionConfidence": 0.99609375,
+                  "landmarkingConfidence": 0.39419442,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 3.9360676,
+                  "panAngle": 23.402483,
+                  "tiltAngle": -1.969795,
+                  "detectionConfidence": 0.9375,
+                  "landmarkingConfidence": 0.4123294,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/duyltp\\1713237797809_5d525cee-5ddc-40d0-8c71-421e6a9965e6.jpeg",
+            "type": "image/jpeg",
+            "confidence": 0,
+            "text": "This image cannot be classified",
+            "normalized_value": null
+          }
+        ],
+        [
+          {
+            "file": "svm/duyltp\\1714638937376_4da894da-9a94-4d70-be6f-7b3716f6dae2.jpg",
+            "type": "bill",
+            "confidence": 0.9538235068321228,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "80,000",
+                  "confidence": 0.5929127
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1,342,000",
+                  "confidence": 0.6472058
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1,342,000",
+                  "confidence": 0.6057057
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/duyltp\\1714638937383_5efe8922-78a5-4db7-96f2-580f5ed9a6a7.jpg",
+            "type": "bill",
+            "confidence": 0.9026682376861572,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "350,000",
+                  "confidence": 0.6010675
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "350,000",
+                  "confidence": 0.67757696
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024 09:56",
+                  "confidence": 0.6892463
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "HD00572",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "B\u00e1nh \u01af\u1edbt Long",
+                  "confidence": 0.38002855
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "202 Phan \u0110\u00ecnh Ph\u00f9ng - \u0110\u00e0 L\u1ea1t",
+                  "confidence": 0.97369087
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/duyltp\\1714638937572_2a1e0498-9081-453a-b471-4649730450d9.jpg",
+            "type": "bill",
+            "confidence": 0.816257655620575,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "4470",
+                  "confidence": 0.5861294
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "S\u1ed1 10 \u0110\u01b0\u1eddng 3 Th\u00e1ng 4, Ph\u01b0\u1eddng 3",
+                  "confidence": 0.2848224
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/duyltp\\1714638937592_f206e360-cc16-4979-9e83-259aefaf3e23.jpg",
+            "type": "bill",
+            "confidence": 0.902177095413208,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "118,000tea",
+                  "confidence": 0.63657475
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "899,000",
+                  "confidence": 0.6756682
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "899,000",
+                  "confidence": 0.60275364
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "899,000",
+                  "confidence": 0.48152167
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20 thg 4, 2024",
+                  "confidence": 0.44499266
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "224559",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "em ca",
+                  "confidence": 0.36880907
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "Ph\u01b0\u1eddng 11, th\u00e0nh ph\u1ed1 \u0110\u00e0 L\u1ea1t, L\u00e2m",
+                  "confidence": 0.24202314
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/duyltp\\1714643292210_282bdec5-d797-4f51-b1b5-a6c4e9648dd7.jpeg",
+            "type": "bill",
+            "confidence": 0.914216160774231,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "119,000",
+                  "confidence": 0.5490338
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "595,000",
+                  "confidence": 0.4938484
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "5,817,000",
+                  "confidence": 0.6839924
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "5,817,000",
+                  "confidence": 0.64024186
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "0917.06.98.06",
+                  "confidence": 0.007275261
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "0909.18.95.84",
+                  "confidence": 0.05028766
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "21/04/2024 18:28",
+                  "confidence": 0.6284182
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "HD001508",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "6a \u0110\u1ed1ng \u0110a - P3 - \u0110\u00e0 L\u1ea1t",
+                  "confidence": 0.92921394
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 12:09:28",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "member_count_too_high",
+        "tripId": "10003234",
+        "memberCount": 18,
+        "maxFacesDetected": 17,
+        "allFaceCounts": [
+          17
+        ],
+        "groupPhotoFiles": [
+          "svm/duyltp\\1713237745658_137581f5-f439-459a-af76-343e6c767d91.jpeg"
+        ],
+        "message": "Member count 18 is more than maximum faces detected 17 in group photos"
+      },
+      {
+        "rule": "bill_date_out_of_range",
+        "tripId": "10003234",
+        "tripDates": "2024-04-20 to 2024-04-21",
+        "billDate": "2024-04-14",
+        "confidence": 0.9437916,
+        "source": "svm/duyltp\\1713237745409_8bec1ce3-9bb1-47da-b2f6-a46fabf6e21d.jpeg",
+        "message": "Bill date outside trip date range"
+      },
+      {
+        "rule": "bill_date_out_of_range",
+        "tripId": "10003234",
+        "tripDates": "2024-04-20 to 2024-04-21",
+        "billDate": "2024-04-14",
+        "confidence": 0.90126556,
+        "source": "svm/duyltp\\1713237745409_8bec1ce3-9bb1-47da-b2f6-a46fabf6e21d.jpeg",
+        "message": "Bill date outside trip date range"
+      }
+    ]
+  }
+]

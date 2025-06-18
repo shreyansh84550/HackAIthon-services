@@ -1,0 +1,301 @@
+[
+  {
+    "rowId": "47",
+    "tripId": "10003154",
+    "fromDate": "2024-04-18 00:00:00",
+    "toDate": "2024-04-18 00:00:00",
+    "evidenceFolderPath": "svm/cott1",
+    "memberCount": "7",
+    "vacationDestination": "Phuc Long Premium",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/cott1\\1713748014737_84323037-c3b3-4fff-8681-31df8c7c7d5e.jpeg",
+            "type": "group-photo",
+            "confidence": 0.9821767807006836,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 8,
+              "face_annotations": [
+                {
+                  "rollAngle": -9.264406,
+                  "panAngle": -11.520944,
+                  "tiltAngle": -2.6436687,
+                  "detectionConfidence": 0.96484375,
+                  "landmarkingConfidence": 0.59321076,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 0.5981751,
+                  "panAngle": -14.221291,
+                  "tiltAngle": -2.857396,
+                  "detectionConfidence": 0.95703125,
+                  "landmarkingConfidence": 0.61644393,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -2.6139817,
+                  "panAngle": 12.358622,
+                  "tiltAngle": -0.67997885,
+                  "detectionConfidence": 0.89453125,
+                  "landmarkingConfidence": 0.7221152,
+                  "joyLikelihood": "LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 7.649048,
+                  "panAngle": 21.946918,
+                  "tiltAngle": 0.77185917,
+                  "detectionConfidence": 0.9609375,
+                  "landmarkingConfidence": 0.4832844,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 19.191277,
+                  "panAngle": 13.161414,
+                  "tiltAngle": -0.14910565,
+                  "detectionConfidence": 0.56640625,
+                  "landmarkingConfidence": 0.5441747,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -8.320007,
+                  "panAngle": -17.985182,
+                  "tiltAngle": 6.0257335,
+                  "detectionConfidence": 0.98046875,
+                  "landmarkingConfidence": 0.6208724,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 3.5808353,
+                  "panAngle": 3.9501374,
+                  "tiltAngle": -3.2344403,
+                  "detectionConfidence": 0.921875,
+                  "landmarkingConfidence": 0.5526248,
+                  "joyLikelihood": "UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -15.248731,
+                  "panAngle": -20.404873,
+                  "tiltAngle": 10.047165,
+                  "detectionConfidence": 0.8671875,
+                  "landmarkingConfidence": 0.38206804,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "LIKELY"
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/cott1\\1713748014824_64b05a62-18d1-4ba6-91db-48d0fa2aa363.jpeg",
+            "type": "bill",
+            "confidence": 0.7921327352523804,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "VND 681,000",
+                  "confidence": 0.41875732
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "5455-79",
+                  "confidence": 0.06044601
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "18/04/2024",
+                  "confidence": 0.81144184
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "08:24:52",
+                  "confidence": 0.00014559033
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "03005255",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "03395255",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "000161",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "009042",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "006731009546",
+                  "confidence": 1.873701e-30
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "885220",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "A0000000041010",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "472F6B61EF31101",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "269292",
+                  "confidence": 0
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "EXIMBANK",
+                  "confidence": 0.37716246
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "87 XUAN THU",
+                  "confidence": 0.79811627
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "TP.THU DUC,TP.HCM",
+                  "confidence": 0.20152004
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/cott1\\1713748014839_7924e281-35bf-4a59-a1e4-4afb57188bf3.jpeg",
+            "type": "bill",
+            "confidence": 0.8879342675209045,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "269,292",
+                  "confidence": 0.56123954
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "681,000",
+                  "confidence": 0.65829086
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "681,000",
+                  "confidence": 0.5966646
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "Clean",
+                  "confidence": 0.27980897
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "07:00 - 22:30",
+                  "confidence": 0.003275547
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "18/04/2024 08:25:53 AM",
+                  "confidence": 0.50587815
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "009042",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "009042",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "PHUC LONG",
+                  "confidence": 0.3573663
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "Xuan Thuy, P Thao Dien, Tp Thu Duc, HCM",
+                  "confidence": 0.025762577
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 11:00:45",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Successul Validation",
+    "Comments": []
+  }
+]

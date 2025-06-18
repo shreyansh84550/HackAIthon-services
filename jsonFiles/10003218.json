@@ -1,0 +1,47 @@
+[
+  {
+    "rowId": "107",
+    "tripId": "10003218",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/thuylp",
+    "memberCount": "16",
+    "vacationDestination": "Trip Sapa IVS PRO APR",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/thuylp\\1713845575297_86214dff-886d-499a-814b-5d47a0131a4e.pdf",
+            "type": "group-photo",
+            "confidence": 0.9812026023864746,
+            "normalized_value": null,
+            "image_analysis": null
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 12:01:01",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "missing_image_analysis",
+        "tripId": "10003218",
+        "file": "svm/thuylp\\1713845575297_86214dff-886d-499a-814b-5d47a0131a4e.pdf",
+        "message": "Group photo has no image analysis data"
+      },
+      {
+        "rule": "no_face_detection",
+        "tripId": "10003218",
+        "memberCount": 16,
+        "groupPhotoFiles": [
+          "svm/thuylp\\1713845575297_86214dff-886d-499a-814b-5d47a0131a4e.pdf"
+        ],
+        "message": "Group photos found but no face detection data available"
+      }
+    ]
+  }
+]

@@ -33,6 +33,11 @@ def read_and_process_json(json_folder):
             with open(file_path, 'r') as f:
                 trips = json.load(f)
                 
+                # Skip if this is a validation results file (contains "Comments")
+                if any(isinstance(trip, dict) and "Comments" in trip for trip in trips):
+                    print(f"Skipping {json_file} as it contains validation comments")
+                    continue
+
                 if not isinstance(trips, list):
                     print(f"Error in {json_file}: Expected a list of trips")
                     continue
@@ -49,7 +54,7 @@ def read_and_process_json(json_folder):
                 print(f"Updated {json_file} with processed data")
                 #DO the validation now for the JSON processed
                 print(f"Validation of {json_file} started...")
-                returnAnamolyResult = processJSONdetectAnamoly("jsonFiles/" + json_file)
+                returnAnamolyResult = processJSONdetectAnamoly(os.path.join(json_folder, json_file))
                 print(f"Validation of {json_file} returned with ",returnAnamolyResult)
                 if len(returnAnamolyResult) == 0:
                     finalResult = {

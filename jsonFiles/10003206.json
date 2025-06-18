@@ -1,0 +1,75 @@
+[
+  {
+    "rowId": "95",
+    "tripId": "10003206",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-21 00:00:00",
+    "evidenceFolderPath": "svm/linhnty1",
+    "memberCount": "10",
+    "vacationDestination": "Vitamin Sea Camping",
+    "classfication": {
+      "duration_days": 1,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/linhnty1\\1713846205189_09095bb2-7382-4dc7-a569-d3a0b1c89e4e.png",
+            "type": "image/jpeg",
+            "confidence": 0,
+            "text": "This image cannot be classified",
+            "normalized_value": null
+          }
+        ],
+        [
+          {
+            "file": "svm/linhnty1\\1713846294806_48989b36-9359-4eb6-b547-7cd19b93a64d.png",
+            "type": "bill",
+            "confidence": 0.8675526976585388,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "9.762.000",
+                  "confidence": 0.71754986
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1.000.000",
+                  "confidence": 0.6334368
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "8.762000",
+                  "confidence": 0.64693964
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "21 th\u00e1ng 04 n\u0103m 2024",
+                  "confidence": 0.31432962
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 11:53:49",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_group_photos",
+        "tripId": "10003206",
+        "memberCount": 10,
+        "message": "No group photos found to validate member count"
+      },
+      {
+        "rule": "no_bill_dates_found",
+        "tripId": "10003206",
+        "message": "Bills found but no dates could be extracted from them"
+      }
+    ]
+  }
+]

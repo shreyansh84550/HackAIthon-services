@@ -1,0 +1,190 @@
+[
+  {
+    "rowId": "135",
+    "tripId": "10003248",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/huent18",
+    "memberCount": "7",
+    "vacationDestination": "HCM",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/huent18\\1713765587966_48cf355b-f944-429a-99a7-535eb530d0a4.jpg",
+            "type": "group-photo",
+            "confidence": 0.9816884398460388,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 7,
+              "face_annotations": [
+                {
+                  "rollAngle": -0.500347,
+                  "panAngle": -7.801247,
+                  "tiltAngle": -1.7391311,
+                  "detectionConfidence": 0.93359375,
+                  "landmarkingConfidence": 0.7892009,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -9.601191,
+                  "panAngle": -12.060144,
+                  "tiltAngle": 3.5446393,
+                  "detectionConfidence": 0.96484375,
+                  "landmarkingConfidence": 0.6809525,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 1.6203765,
+                  "panAngle": 0.67388207,
+                  "tiltAngle": 4.719454,
+                  "detectionConfidence": 0.96875,
+                  "landmarkingConfidence": 0.7603366,
+                  "joyLikelihood": "LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -4.3847556,
+                  "panAngle": -1.1396708,
+                  "tiltAngle": -4.119643,
+                  "detectionConfidence": 0.828125,
+                  "landmarkingConfidence": 0.76271534,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -1.5683299,
+                  "panAngle": -12.757685,
+                  "tiltAngle": -9.099004,
+                  "detectionConfidence": 0.9453125,
+                  "landmarkingConfidence": 0.6898497,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -5.343829,
+                  "panAngle": 56.164013,
+                  "tiltAngle": -1.7578698,
+                  "detectionConfidence": 0.7265625,
+                  "landmarkingConfidence": 0.22764015,
+                  "joyLikelihood": "UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 2.4141192,
+                  "panAngle": 4.8678803,
+                  "tiltAngle": 0.6183673,
+                  "detectionConfidence": 0.95703125,
+                  "landmarkingConfidence": 0.5695492,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/huent18\\1713765596076_154e1091-42f5-4aff-855e-b063d3302d32.jpg",
+            "type": "bill",
+            "confidence": 0.9063985347747803,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "304,000",
+                  "confidence": 0.6538736
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "304,000",
+                  "confidence": 0.53695977
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024 09:59:41AM",
+                  "confidence": 0.81426454
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "30-1,000",
+                  "confidence": 0.09624607
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "19009434",
+                  "confidence": 8.129002e-33
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "HCM-1.38-AS-clauln8",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "19009434",
+                  "confidence": 0
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "PASSIO",
+                  "confidence": 0.38544005
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "Chip Sang",
+                  "confidence": 0.53129095
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 12:15:08",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Successul Validation",
+    "Comments": []
+  }
+]

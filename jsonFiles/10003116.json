@@ -23,36 +23,46 @@
           {
             "file": "svm/nhattt\\1713769372068_f79b47d6-f8d5-4706-bec4-dae818c59df7.png",
             "type": "bill",
-            "confidence": 0.8975611329078674,
+            "confidence": 0.8977634310722351,
             "normalized_value": null,
             "processing_results": {
               "entities": [
                 {
                   "type": "bill-amount",
                   "mentionText": "3.086.748\u20ab",
-                  "confidence": 0.49806234
+                  "confidence": 0.7412362
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3.086.748d",
+                  "confidence": 0.5902966
                 },
                 {
                   "type": "bill-date",
                   "mentionText": "20/04/2024",
-                  "confidence": 0.81705904
+                  "confidence": 0.8939988
                 },
                 {
                   "type": "invoice-number",
                   "mentionText": "2402005889",
-                  "confidence": 0.9915509
+                  "confidence": 1.0
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "NH\u00c0 H\u00c0NG NAI V\u00c0NG NEW",
+                  "confidence": 0.38812912
                 },
                 {
                   "type": "vendor-address",
                   "mentionText": "27 Nguy\u1ec5n V\u0103n B\u00e1, B\u00ecnh Th\u1ecd TP, Th\u1ee7 \u0110\u1ee9c",
-                  "confidence": 0.8211172
+                  "confidence": 0.97290385
                 }
               ]
             }
           }
         ]
       ],
-      "processing_date": "2025-06-16 22:57:00",
+      "processing_date": "2025-06-18 10:39:55",
       "status": "Finished"
     }
   },

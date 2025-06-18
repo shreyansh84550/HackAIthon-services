@@ -1,11 +1,16 @@
-from flask import Flask, request, render_template, redirect, url_for
+import json
+from flask import Flask, jsonify, request, render_template, redirect, url_for,jsonify, send_from_directory,abort
 import os
 from processInputFile import processUploadedFile
 from readProcessJSON import read_and_process_json
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['ALLOWED_EXTENSIONS'] = {'xlsx'}
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_IMAGE_FOLDER = os.path.join(BASE_DIR)  
 
 # Ensure upload folder exists
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
@@ -57,5 +62,81 @@ def processJSONFile():
     read_and_process_json(jsonFile)
 
     return {"message": f"Processing {jsonFile}", "status": "success"}
+
+JSON_FOLDER = "jsonFiles"
+@app.route('/get-list', methods=['GET'])
+def getListOfTrips():
+    trips = []
+    try:
+        # Iterate over each file in the folder
+        for filename in os.listdir(JSON_FOLDER):
+            if filename.endswith(".json"):
+                file_path = os.path.join(JSON_FOLDER, filename)
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    data = json.load(file)
+                    if isinstance(data, list) and len(data) == 2:
+                        first_obj = data[0]
+                        validation_obj = data[1]
+                        # Move second object under "validation" key of the first
+                        first_obj["validation"] = validation_obj
+                        trips.append(first_obj)
+                    elif isinstance(data, list):
+                        # If it's a list with more than 1 object, flatten and keep each as separate
+                        trips.extend(data)
+                    else:
+                        # If it's a single object (not a list)
+                        trips.append(data)  # Append data from each file
+                        
+        sorted_trips = sorted(
+            trips,
+            key=lambda trip: (
+                1 if trip.get("classfication", {}).get("status") else 0,
+                str(trip.get("classfication", {}).get("status", "")).lower()
+            )
+        )
+        return jsonify(sorted_trips)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/get-trip-detail-by-id/<tripId>', methods=['GET'])
+def getTripDetailsById(tripId):
+    trips = []
+    try:
+        file_path = os.path.join(JSON_FOLDER, f"{tripId}.json")
+
+        # Check if file exists
+        if not os.path.exists(file_path):
+            return jsonify({"error": f"Trip ID {tripId} not found"}), 404
+
+        # Read the file and return its content
+        with open(file_path, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+            if isinstance(data, list) and len(data) == 2:
+                first_obj = data[0]
+                validation_obj = data[1]
+                # Move second object under "validation" key of the first
+                first_obj["validation"] = validation_obj
+                trips.append(first_obj)
+            elif isinstance(data, list):
+                # If it's a list with more than 1 object, flatten and keep each as separate
+                trips.extend(data)
+            else:
+                # If it's a single object (not a list)
+                trips.append(data) 
+
+        return jsonify(trips)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/preview/<path:filename>')
+def preview_file(filename):
+    full_path = os.path.join(BASE_IMAGE_FOLDER, filename)
+    if os.path.isfile(full_path):
+        folder = os.path.dirname(filename)
+        file = os.path.basename(filename)
+        return send_from_directory(os.path.join(BASE_IMAGE_FOLDER, folder), file)
+    else:
+        return abort(404)    
+
 if __name__ == '__main__':
     app.run(debug=True)

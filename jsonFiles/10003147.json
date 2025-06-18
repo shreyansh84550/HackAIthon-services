@@ -1,0 +1,439 @@
+[
+  {
+    "rowId": "40",
+    "tripId": "10003147",
+    "fromDate": "2024-04-19 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/trangpt13",
+    "memberCount": "9",
+    "vacationDestination": "Hoa Binh",
+    "classfication": {
+      "duration_days": 1,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/trangpt13\\1713928466605_82bb8159-d6bd-4423-b30a-66824550f29a.jpg",
+            "type": "bill",
+            "confidence": 0.8693417310714722,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "470.000",
+                  "confidence": 0.60998404
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "470.000",
+                  "confidence": 0.5444821
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "5.035.000",
+                  "confidence": 0.54978377
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/4",
+                  "confidence": 0.20324196
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/04/2024",
+                  "confidence": 0.78915966
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/04/2024",
+                  "confidence": 0.53936046
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/04/2024",
+                  "confidence": 0.7740906
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "B04",
+                  "confidence": 0
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Mo Village",
+                  "confidence": 0.39948943
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "THANH\nTO\u00c1N",
+                  "confidence": 0.36442226
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Mo Village",
+                  "confidence": 0.40109107
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "ch\u1ec9 Xan Mo, \u0110\u00e0 B\u1eafc, H\u00f2a B\u00ecnh",
+                  "confidence": 0.00726761
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "\u01a1, \u0110\u00e0 B\u1eafc, H\u00f2a B\u00ecnh",
+                  "confidence": 0.43670812
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/trangpt13\\1713928466605_c1d742a5-b86d-4069-9dca-d3d2a3b32d77.jpg",
+            "type": "bill",
+            "confidence": 0.8761404156684875,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "6.035.000",
+                  "confidence": 0.74178594
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "5.035.000",
+                  "confidence": 0.670742
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "5.035.000",
+                  "confidence": 0.6523726
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/04/2024",
+                  "confidence": 0.83416796
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/04/2024",
+                  "confidence": 0.71868074
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/04/2024",
+                  "confidence": 0.88354516
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "B09",
+                  "confidence": 6.9698166e-05
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Mo Village",
+                  "confidence": 0.401459
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Mo Village",
+                  "confidence": 0.40631506
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "X\u00f3ra Mo, Da \u0412\u0430\u0441, H\u00f2a B\u00ecnh",
+                  "confidence": 0.7405807
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "\u01a1, \u0110\u00e0 B\u1eafc, H\u00f2a B\u00ecnh",
+                  "confidence": 0.5244979
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/trangpt13\\1713928466616_e06aa01d-2b55-48e1-a8ca-8280556cae28.jpg",
+            "type": "bill",
+            "confidence": 0.8073058128356934,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3.900.000",
+                  "confidence": 0.69707954
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "900.000",
+                  "confidence": 0.5815127
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "4.800.000",
+                  "confidence": 0.65009075
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "5.505.000",
+                  "confidence": 0.46872306
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1.950.000",
+                  "confidence": 0.53207165
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "10.305.000",
+                  "confidence": 0.41796562
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "8.270.000",
+                  "confidence": 0.6024764
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/04/2024",
+                  "confidence": 0.23708315
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024",
+                  "confidence": 0.11766539
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/04/2024",
+                  "confidence": 0.1464591
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024",
+                  "confidence": 0.06091616
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/04/2024",
+                  "confidence": 0.9233572
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Mo Village",
+                  "confidence": 0.40318525
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "X\u00f3m M\u01a1, \u0110\u00e0 B\u1eafc, H\u00f2a B\u00ecnh",
+                  "confidence": 0.60388714
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/trangpt13\\1713928466633_110126ee-e11b-4746-ade3-ed2792ea311a.jpg",
+            "type": "bill",
+            "confidence": 0.8129944801330566,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3.900.000",
+                  "confidence": 0.6375224
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1.950.000",
+                  "confidence": 0.4922202
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/4",
+                  "confidence": 0.65610254
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "MO VILLAGE",
+                  "confidence": 0.396789
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "MO VILLAGE",
+                  "confidence": 0.3974806
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "MO VILLAGE",
+                  "confidence": 0.39746365
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "M\u01a1 Village",
+                  "confidence": 0.3802438
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "MO VILLAGE",
+                  "confidence": 0.39768156
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/trangpt13\\1713928466645_4a36b10c-b74d-4049-bd5e-1c2ffe2f3ea8.jpg",
+            "type": "group-photo",
+            "confidence": 0.9810130000114441,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 9,
+              "face_annotations": [
+                {
+                  "rollAngle": 8.808561,
+                  "panAngle": 23.332708,
+                  "tiltAngle": 6.5764875,
+                  "detectionConfidence": 0.94140625,
+                  "landmarkingConfidence": 0.58964705,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -29.90933,
+                  "panAngle": -9.660084,
+                  "tiltAngle": 6.44785,
+                  "detectionConfidence": 0.921875,
+                  "landmarkingConfidence": 0.6368041,
+                  "joyLikelihood": "POSSIBLE",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 9.026041,
+                  "panAngle": 22.60858,
+                  "tiltAngle": 4.1529293,
+                  "detectionConfidence": 0.9765625,
+                  "landmarkingConfidence": 0.59730524,
+                  "joyLikelihood": "POSSIBLE",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 25.209282,
+                  "panAngle": 8.285373,
+                  "tiltAngle": 15.266356,
+                  "detectionConfidence": 0.96484375,
+                  "landmarkingConfidence": 0.63921237,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 0.7919167,
+                  "panAngle": -8.531174,
+                  "tiltAngle": -2.0836408,
+                  "detectionConfidence": 0.71875,
+                  "landmarkingConfidence": 0.5996256,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 11.387725,
+                  "panAngle": 14.133973,
+                  "tiltAngle": 9.0156355,
+                  "detectionConfidence": 0.9609375,
+                  "landmarkingConfidence": 0.7697293,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -15.703175,
+                  "panAngle": -21.35151,
+                  "tiltAngle": -4.1200137,
+                  "detectionConfidence": 0.91796875,
+                  "landmarkingConfidence": 0.5314091,
+                  "joyLikelihood": "UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 10.773476,
+                  "panAngle": -3.779928,
+                  "tiltAngle": 4.2018895,
+                  "detectionConfidence": 0.796875,
+                  "landmarkingConfidence": 0.677713,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -11.478526,
+                  "panAngle": -5.296295,
+                  "tiltAngle": -1.7311267,
+                  "detectionConfidence": 0.99609375,
+                  "landmarkingConfidence": 0.75189507,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 10:58:42",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Successul Validation",
+    "Comments": []
+  }
+]

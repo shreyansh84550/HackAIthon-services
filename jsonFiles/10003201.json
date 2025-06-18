@@ -1,0 +1,76 @@
+[
+  {
+    "rowId": "90",
+    "tripId": "10003201",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/themlt",
+    "memberCount": "12",
+    "vacationDestination": "Nai Vang new",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/themlt\\1714724355906_787092e3-3d07-4b82-9f67-6623e1c6d66b.jpg",
+            "type": "bill",
+            "confidence": 0.9020785689353943,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "4.333.000\u20ab",
+                  "confidence": 0.523574
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "4.679.640\u20ab",
+                  "confidence": 0.7322046
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "4.679.640\u20ab",
+                  "confidence": 0.7155897
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024",
+                  "confidence": 0.72485524
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "2402006861",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "27 Nguy\u1ec5n V\u0103n B\u00e0, B\u00ecnh Th\u1ecd, TP, Th\u1ee7 \u0110\u1ee9c",
+                  "confidence": 0.9655775
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "0907.106.391-0934.000.597",
+                  "confidence": 0.15353343
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 11:51:49",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_group_photos",
+        "tripId": "10003201",
+        "memberCount": 12,
+        "message": "No group photos found to validate member count"
+      }
+    ]
+  }
+]

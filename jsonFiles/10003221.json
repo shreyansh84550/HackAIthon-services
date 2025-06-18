@@ -1,0 +1,163 @@
+[
+  {
+    "rowId": "110",
+    "tripId": "10003221",
+    "fromDate": "2024-04-18 00:00:00",
+    "toDate": "2024-04-18 00:00:00",
+    "evidenceFolderPath": "svm/thuyhtn2",
+    "memberCount": "5",
+    "vacationDestination": "Ho Chi Minh City",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/thuyhtn2\\1713846006474_ccb3878e-9b0c-44ed-9e34-6ab85e33fe20.jpg",
+            "type": "bill",
+            "confidence": 0.8940487504005432,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1 138 000",
+                  "confidence": 0.5942758
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1 138 000",
+                  "confidence": 0.7462158
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1 138",
+                  "confidence": 0.56251675
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "03 6104 5520 19",
+                  "confidence": 0.28917024
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "18.04.2024 19.42",
+                  "confidence": 0.7331852
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "18.04.2024",
+                  "confidence": 0.43124452
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "22578402",
+                  "confidence": 0
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "2-4 Tr\u1ea7n Xu\u00e2n H\u00f2a, Ph\u01b0\u1eddng 7, Qu\u1eadn 5, TP HCM",
+                  "confidence": 0.7161234
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/thuyhtn2\\1713846007707_a4ba24ae-9979-4295-8cc4-15e9eec9da07.jpg",
+            "type": "group-photo",
+            "confidence": 0.9823457598686218,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 5,
+              "face_annotations": [
+                {
+                  "rollAngle": 1.3349276,
+                  "panAngle": -22.201267,
+                  "tiltAngle": 12.692147,
+                  "detectionConfidence": 0.98046875,
+                  "landmarkingConfidence": 0.5046437,
+                  "joyLikelihood": "LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -2.192184,
+                  "panAngle": 0.6832846,
+                  "tiltAngle": -9.170091,
+                  "detectionConfidence": 0.99609375,
+                  "landmarkingConfidence": 0.6951454,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -1.1864322,
+                  "panAngle": -0.54904884,
+                  "tiltAngle": 1.4831191,
+                  "detectionConfidence": 0.98828125,
+                  "landmarkingConfidence": 0.76501226,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -24.548672,
+                  "panAngle": -29.055183,
+                  "tiltAngle": 3.2062688,
+                  "detectionConfidence": 0.97265625,
+                  "landmarkingConfidence": 0.44878832,
+                  "joyLikelihood": "LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -15.685342,
+                  "panAngle": -18.065954,
+                  "tiltAngle": 3.6592553,
+                  "detectionConfidence": 0.76953125,
+                  "landmarkingConfidence": 0.6695511,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 12:02:31",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_bill_dates_found",
+        "tripId": "10003221",
+        "message": "Bills found but no dates could be extracted from them"
+      }
+    ]
+  }
+]

@@ -1,0 +1,265 @@
+[
+  {
+    "rowId": "31",
+    "tripId": "10003138",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-21 00:00:00",
+    "evidenceFolderPath": "svm/binhnt2",
+    "memberCount": "5",
+    "vacationDestination": "Hanoi",
+    "classfication": {
+      "duration_days": 1,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/binhnt2\\1713843591831_bd3a946a-b2b2-4adc-9227-2f3ab5c31fd7.pdf",
+            "type": "bill",
+            "confidence": 0.8563632965087891,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "$237",
+                  "confidence": 0.12701507
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "US$107 VND",
+                  "confidence": 0.41337377
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "2,721,600",
+                  "confidence": 0.4070728
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "2,520,000",
+                  "confidence": 0.4641669
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "2,721,600",
+                  "confidence": 0.46675238
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "US$130 VND",
+                  "confidence": 0.42830265
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3,304,800",
+                  "confidence": 0.4196588
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3,060,000",
+                  "confidence": 0.43978986
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3,304,800",
+                  "confidence": 0.46414366
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "2/1",
+                  "confidence": 0.009750062
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "14:00-22:00",
+                  "confidence": 0.0064290343
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "12:00-12:00",
+                  "confidence": 0.0011537368
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "17, 2024 11:59 PM",
+                  "confidence": 0.0028302842
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "18, 2024 12:00 AM",
+                  "confidence": 0.0032245847
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "17, 2024 11:59 PM",
+                  "confidence": 0.0016197623
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "18, 2024 12:00 AM",
+                  "confidence": 0.002712342
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "12280200",
+                  "confidence": 1.56945e-43
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Thang M\u00e2y Village Resort",
+                  "confidence": 0.36751753
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Two-Bedroom",
+                  "confidence": 0.36210838
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Three-Bedroom Villa",
+                  "confidence": 0.3701427
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "B\u1ea3n X\u00f4i, Ba V\u00ec, Vietnam",
+                  "confidence": 0.4897324
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/binhnt2\\1713843714886_14af97f7-b440-4fe6-9458-4b7eef30f28f.jpeg",
+            "type": "bill",
+            "confidence": 0.8097438812255859,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1280",
+                  "confidence": 0.5433974
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "4.300.",
+                  "confidence": 0.7432496
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "-+--Ship-\n20",
+                  "confidence": 0.00010873569
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Boi",
+                  "confidence": 0.36975855
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "31 Nguy\u1ec5n Ho\u00e0ng, M\u1ef9 \u0110\u00ecnh 2 - \u0110C2: 41A Nguy\u1ec5n V\u0103n Huy\u00ean, C\u1ea7u Gi\u1ea5y",
+                  "confidence": 0.761275
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/binhnt2\\1713843722380_8ede18ec-19b6-4625-a731-bd717af9bd06.jpeg",
+            "type": "group-photo",
+            "confidence": 0.9838813543319702,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 5,
+              "face_annotations": [
+                {
+                  "rollAngle": -5.8773828,
+                  "panAngle": -2.301334,
+                  "tiltAngle": 9.188082,
+                  "detectionConfidence": 0.9765625,
+                  "landmarkingConfidence": 0.7604171,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_LIKELY"
+                },
+                {
+                  "rollAngle": -23.302422,
+                  "panAngle": -4.393441,
+                  "tiltAngle": 6.715486,
+                  "detectionConfidence": 0.97265625,
+                  "landmarkingConfidence": 0.4723972,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_LIKELY"
+                },
+                {
+                  "rollAngle": 5.805365,
+                  "panAngle": -12.682513,
+                  "tiltAngle": -3.213759,
+                  "detectionConfidence": 0.95703125,
+                  "landmarkingConfidence": 0.5977264,
+                  "joyLikelihood": "LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -3.1352243,
+                  "panAngle": -1.8920525,
+                  "tiltAngle": -0.8587863,
+                  "detectionConfidence": 0.984375,
+                  "landmarkingConfidence": 0.71890247,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -1.2780088,
+                  "panAngle": 0.00920149,
+                  "tiltAngle": 3.7907484,
+                  "detectionConfidence": 0.99609375,
+                  "landmarkingConfidence": 0.55032027,
+                  "joyLikelihood": "POSSIBLE",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_LIKELY"
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 10:47:49",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_bill_dates_found",
+        "tripId": "10003138",
+        "message": "Bills found but no dates could be extracted from them"
+      }
+    ]
+  }
+]

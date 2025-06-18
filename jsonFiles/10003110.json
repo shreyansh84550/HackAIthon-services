@@ -29,175 +29,270 @@
               "entities": [
                 {
                   "type": "bill-amount",
+                  "mentionText": "0 VND",
+                  "confidence": 0.65701216
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "0 VND",
+                  "confidence": 0.49238017
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "0 VND",
+                  "confidence": 0.6908133
+                },
+                {
+                  "type": "bill-amount",
                   "mentionText": "235,200",
-                  "confidence": 0.29768774
+                  "confidence": 0.7224566
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "235,200",
+                  "confidence": 0.7298529
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "235,200",
+                  "confidence": 0.6426808
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "225,200",
+                  "confidence": 0.64174366
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "10,",
+                  "confidence": 0.57944965
                 },
                 {
                   "type": "bill-amount",
                   "mentionText": "141,800",
-                  "confidence": 0.27567512
+                  "confidence": 0.74040955
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "141,800",
+                  "confidence": 0.62210786
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "141,300",
+                  "confidence": 0.51430744
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "141,81",
+                  "confidence": 0.5154676
                 },
                 {
                   "type": "bill-date",
-                  "mentionText": "17:00",
-                  "confidence": 0.7267983
+                  "mentionText": "20/04/2024 15:00 - 17:00",
+                  "confidence": 0.8841107
                 },
                 {
                   "type": "bill-date",
-                  "mentionText": "20/04/2024 ",
-                  "confidence": 0.7145528
+                  "mentionText": "20/04/2024 08:11",
+                  "confidence": 0.81227016
                 },
                 {
                   "type": "bill-date",
-                  "mentionText": "Ng\u00e0y 20 th\u00e1ng 4",
-                  "confidence": 0.5359829
+                  "mentionText": "19/04/2024 11:31:44",
+                  "confidence": 0.160862
                 },
                 {
                   "type": "bill-date",
-                  "mentionText": "19/04/2024 ",
-                  "confidence": 0.4036363
+                  "mentionText": "19/04/2024 17:20:53",
+                  "confidence": 0.7182171
                 },
                 {
                   "type": "bill-date",
-                  "mentionText": "19/04/2024 ",
-                  "confidence": 0.32200384
+                  "mentionText": "20 th\u00e1ng 4 n\u0103m 202.4..",
+                  "confidence": 0.0854198
                 },
                 {
                   "type": "bill-date",
-                  "mentionText": "19/04/2024 ",
-                  "confidence": 0.24660127
-                },
-                {
-                  "type": "bill-date",
-                  "mentionText": "20/04/2024 ",
-                  "confidence": 0.1910762
+                  "mentionText": "19/04/2024 21:14",
+                  "confidence": 0.8010882
                 },
                 {
                   "type": "invoice-number",
-                  "mentionText": "1800 6804",
-                  "confidence": 0.46519294
+                  "mentionText": "146445",
+                  "confidence": 1.0
                 },
                 {
                   "type": "invoice-number",
-                  "mentionText": "512360",
-                  "confidence": 0.0014804284
+                  "mentionText": "356026",
+                  "confidence": 1.0
                 },
                 {
                   "type": "invoice-number",
-                  "mentionText": "00002502423",
-                  "confidence": 0.36427605
+                  "mentionText": "KP011512360",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "M1-24-MO",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "HM-00002502423",
+                  "confidence": 0
                 },
                 {
                   "type": "invoice-number",
                   "mentionText": "0364941",
-                  "confidence": 0.9469329
+                  "confidence": 0
                 },
                 {
                   "type": "invoice-number",
-                  "mentionText": "48693",
-                  "confidence": 0.0010233467
+                  "mentionText": "16299919",
+                  "confidence": 0.9999991
                 },
                 {
                   "type": "invoice-number",
-                  "mentionText": "1629991",
-                  "confidence": 0.8256956
+                  "mentionText": "8936132370600",
+                  "confidence": 1.04781165e-19
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "2954574000820",
+                  "confidence": 0.9911768
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "8934614030066",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "8938502821187",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "8935039514230",
+                  "confidence": 3.5573303e-26
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "8934563982157",
+                  "confidence": 0.99983823
                 },
                 {
                   "type": "invoice-number",
                   "mentionText": "14045",
-                  "confidence": 0.8931534
+                  "confidence": 9.113589e-13
                 },
                 {
                   "type": "invoice-number",
-                  "mentionText": "37185455",
-                  "confidence": 0.86599296
+                  "mentionText": "00131037595",
+                  "confidence": 0
                 },
                 {
                   "type": "invoice-number",
-                  "mentionText": "1413493",
-                  "confidence": 0.86720395
+                  "mentionText": "14134935-H\u00e0o",
+                  "confidence": 9.840132e-05
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "2000135279683",
+                  "confidence": 0
                 },
                 {
                   "type": "invoice-number",
                   "mentionText": "94595",
-                  "confidence": 0.8553009
+                  "confidence": 1.0
                 },
                 {
                   "type": "invoice-number",
-                  "mentionText": "00002282267",
-                  "confidence": 0.2883298
+                  "mentionText": "34935",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "011291289",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "M1-24 MO",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "HM-00002282267",
+                  "confidence": 0
                 },
                 {
                   "type": "vendor",
                   "mentionText": "KINGFOODMART",
-                  "confidence": 0.99929667
+                  "confidence": 0.3772082
                 },
                 {
                   "type": "vendor",
-                  "mentionText": "opmart",
-                  "confidence": 0.00020768402
-                },
-                {
-                  "type": "vendor",
-                  "mentionText": "\u0421 WITH EOOD",
-                  "confidence": 3.093871e-07
+                  "mentionText": "\u0418\u0421\u041e\u0421 WITH EOOD",
+                  "confidence": 0.36192337
                 },
                 {
                   "type": "vendor",
                   "mentionText": "NG\u1eccC MINH FOOD",
-                  "confidence": 0.26479185
+                  "confidence": 0.36665803
                 },
                 {
                   "type": "vendor",
                   "mentionText": "KINGFOODMART",
-                  "confidence": 0.9991657
+                  "confidence": 0.3759488
                 },
                 {
                   "type": "vendor-address",
                   "mentionText": "Vir nomes Granc Park 513 02, Q. Th\u1ee7 \u0110\u1ee9c - Ph\u01b0\u1eddng Long Th\u00e1nh M\u1ef9 - Qu\u1eadn Th\u1ee7 \u0110\u1ee9c, H\u1ed3 Ch\u00ed Minh",
-                  "confidence": 0.2881792
+                  "confidence": 0.08259335
                 },
                 {
                   "type": "vendor-address",
-                  "mentionText": "Nguy\u1ec5n V\u0103n \u0110\u00ea",
-                  "confidence": 0.10362799
+                  "mentionText": "630\n7. Quan Go Vap,\n543/1 Phan van Tr\u1ecb, Ph\u01b0\u01a1ng 7,\nThanh pho",
+                  "confidence": 0.0001369175
                 },
                 {
                   "type": "vendor-address",
-                  "mentionText": "7. Quan Go Vap,",
-                  "confidence": 0.2494645
+                  "mentionText": "Th\u01b0\u01a1ng\nTP.HCM",
+                  "confidence": 0.005098172
                 },
                 {
                   "type": "vendor-address",
-                  "mentionText": "543/1 Phan van Tr\u1ecb, Ph\u01b0\u01a1ng 7,\nThanh pho Ho Chi Minh",
-                  "confidence": 0.5266069
+                  "mentionText": "M1-24-",
+                  "confidence": 0.28553385
                 },
                 {
                   "type": "vendor-address",
-                  "mentionText": "167/",
-                  "confidence": 0.5382973
+                  "mentionText": "167/2 Nguyen Anh Thu, Phuong Trung My Tay,\nQuan 12, Thanh pho Ho Chi Minh",
+                  "confidence": 0.8967138
                 },
                 {
                   "type": "vendor-address",
-                  "mentionText": "Quan 12, Thanh pho Ho Chi Minh",
-                  "confidence": 0.09863756
+                  "mentionText": "M1-24-",
+                  "confidence": 0.15760247
                 },
                 {
                   "type": "vendor-address",
                   "mentionText": "501A Nguy\u1ec5n \u1ea2nh Th\u1ee7, P.Hi\u1ec7p Th\u00e0nh, Qu\u1eadn 12, TP.HCM",
-                  "confidence": 0.56535083
+                  "confidence": 0.92696375
                 },
                 {
                   "type": "vendor-address",
-                  "mentionText": "Poons Garden, T.Binh D\u01b0\u01a1ng - Ph\u01b0\u01a1ng Du\u00e2n Qu\u1eadn Di An, Bi\u1ec7t",
-                  "confidence": 0.065451406
+                  "mentionText": "Poons Garden, T.Binh D\u01b0\u01a1ng - Ph\u01b0\u01a1ng Du\u00e2n Qu\u1eadn Di An, Bi\u1ec7t D\u01b0\u01a1ng",
+                  "confidence": 0.024194466
                 }
               ]
             }
           }
         ]
       ],
-      "processing_date": "2025-06-16 22:53:24",
+      "processing_date": "2025-06-18 10:36:40",
       "status": "Finished"
     }
   },
@@ -218,6 +313,24 @@
           "svm/trieuld\\1713757210082_53f16065-1f0d-408b-b176-27e180de3677.pdf"
         ],
         "message": "Group photos found but no face detection data available"
+      },
+      {
+        "rule": "bill_date_out_of_range",
+        "tripId": "10003110",
+        "tripDates": "2024-04-20 to 2024-04-20",
+        "billDate": "2024-04-19",
+        "confidence": 0.7182171,
+        "source": "svm/trieuld\\1713757216455_1eae4377-4d09-467e-9b7c-cef1da5790b5.pdf",
+        "message": "Bill date outside trip date range"
+      },
+      {
+        "rule": "bill_date_out_of_range",
+        "tripId": "10003110",
+        "tripDates": "2024-04-20 to 2024-04-20",
+        "billDate": "2024-04-19",
+        "confidence": 0.8010882,
+        "source": "svm/trieuld\\1713757216455_1eae4377-4d09-467e-9b7c-cef1da5790b5.pdf",
+        "message": "Bill date outside trip date range"
       }
     ]
   }

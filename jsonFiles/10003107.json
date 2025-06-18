@@ -21,12 +21,12 @@
                 {
                   "type": "bill-date",
                   "mentionText": "18/04/2024",
-                  "confidence": 0.7146189
+                  "confidence": 0.36219317
                 },
                 {
-                  "type": "invoice-number",
-                  "mentionText": "04363195868",
-                  "confidence": 0.9616123
+                  "type": "bill-date",
+                  "mentionText": ":30-21:00",
+                  "confidence": 8.723234e-06
                 }
               ]
             }
@@ -51,40 +51,30 @@
               "entities": [
                 {
                   "type": "bill-amount",
-                  "mentionText": "444.028",
-                  "confidence": 0.052616008
-                },
-                {
-                  "type": "bill-amount",
                   "mentionText": "2.675.000",
-                  "confidence": 0.3262808
+                  "confidence": 0.7325584
                 },
                 {
                   "type": "bill-date",
-                  "mentionText": "n\u0103m 20",
-                  "confidence": 0.05626636
+                  "mentionText": "..... th\u00e1ng ..... n\u0103m 20........",
+                  "confidence": 0.0023288815
                 },
                 {
                   "type": "vendor",
-                  "mentionText": "HAI L\u00daA 35",
-                  "confidence": 0.02660732
-                },
-                {
-                  "type": "vendor",
-                  "mentionText": "NGUYEN THI BINH PHUONG",
-                  "confidence": 0.025783135
+                  "mentionText": "B\u00f2 To HAI L\u00daA 35",
+                  "confidence": 0.3787623
                 },
                 {
                   "type": "vendor-address",
-                  "mentionText": "H\u1ebbm 29, Hu\u1ef3nh T\u1ea5n Ph\u00e1t, Hi\u1ec7p Th\u1ea1nh, Hi\u1ec7p Ninh, TP. T\u00e2y Nin",
-                  "confidence": 0.22084104
+                  "mentionText": "H\u1ebbm 29, Hu\u1ef3nh T\u1ea5n Ph\u00e1t, Hi\u1ec7p Th\u1ea1nh, Hi\u1ec7p Ninh, TP. T\u00e2y Ninh, TN",
+                  "confidence": 0.82764614
                 }
               ]
             }
           }
         ]
       ],
-      "processing_date": "2025-06-16 22:52:10",
+      "processing_date": "2025-06-18 10:35:32",
       "status": "Finished"
     }
   },
@@ -96,6 +86,11 @@
         "tripId": "10003107",
         "memberCount": 8,
         "message": "No group photos found to validate member count"
+      },
+      {
+        "rule": "no_valid_bill_dates",
+        "tripId": "10003107",
+        "message": "No bills found within trip date range"
       }
     ]
   }

@@ -1,0 +1,210 @@
+[
+  {
+    "rowId": "27",
+    "tripId": "10003134",
+    "fromDate": "2024-04-18 00:00:00",
+    "toDate": "2024-04-18 00:00:00",
+    "evidenceFolderPath": "svm/georgesc",
+    "memberCount": "7",
+    "vacationDestination": "Beer party",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/georgesc\\1713774772349_a10f96ea-675a-45de-ae41-22bf45216154.pdf",
+            "type": "bill",
+            "confidence": 0.8631784319877625,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3.007.000",
+                  "confidence": 0.5828648
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3.269.080",
+                  "confidence": 0.37872094
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "18 th\u00e1ng 04 n\u0103m 2024",
+                  "confidence": 0.259181
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "18/04/2024",
+                  "confidence": 0.8739431
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "0317433764",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "0389271166",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "0016A76AEE964B430FABF76D3F0FE6A2F9",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "0310634373",
+                  "confidence": 0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "00000601",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "L L L L L LLLLLLL LLLLL LL",
+                  "confidence": 0.32269016
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "&M VI\u1ec6T NAM",
+                  "confidence": 0.31475753
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "23 H\u1ed3ng \u0110\u1ee9c, Ph\u01b0\u1eddng B\u00ecnh Th\u1ecd, Th\u00e0nh ph\u1ed1 Th\u1ee7 \u0110\u1ee9c, Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh, Vi\u1ec7t Nam",
+                  "confidence": 0.95237917
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "L\u00f4 T2, \u0111\u01b0\u1eddng D1, khu c\u00f4ng ngh\u1ec7 cao, Ph\u01b0\u1eddng T\u00e2n Ph\u00fa, Th\u00e0nh ph\u1ed1 Th\u1ee7 \u0110\u1ee9c, Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh,",
+                  "confidence": 0.64867127
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/georgesc\\1713775118898_ab57eeb1-39e7-4266-a082-04946afbb604.jpg",
+            "type": "group-photo",
+            "confidence": 0.9827285408973694,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 6,
+              "face_annotations": [
+                {
+                  "rollAngle": -11.014757,
+                  "panAngle": 17.525602,
+                  "tiltAngle": -1.6880621,
+                  "detectionConfidence": 0.92578125,
+                  "landmarkingConfidence": 0.54393166,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 3.7331262,
+                  "panAngle": 8.778553,
+                  "tiltAngle": -2.9961536,
+                  "detectionConfidence": 0.6953125,
+                  "landmarkingConfidence": 0.7884887,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 2.4633176,
+                  "panAngle": -16.653458,
+                  "tiltAngle": -3.5976253,
+                  "detectionConfidence": 0.73828125,
+                  "landmarkingConfidence": 0.47950143,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 1.0670897,
+                  "panAngle": 17.782131,
+                  "tiltAngle": 0.6132829,
+                  "detectionConfidence": 0.84765625,
+                  "landmarkingConfidence": 0.4236758,
+                  "joyLikelihood": "UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -17.116495,
+                  "panAngle": -26.705868,
+                  "tiltAngle": -2.2127786,
+                  "detectionConfidence": 0.92578125,
+                  "landmarkingConfidence": 0.51306134,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -1.256888,
+                  "panAngle": -11.926692,
+                  "tiltAngle": -0.22391681,
+                  "detectionConfidence": 0.9765625,
+                  "landmarkingConfidence": 0.6577434,
+                  "joyLikelihood": "UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 10:46:02",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "member_count_too_high",
+        "tripId": "10003134",
+        "memberCount": 7,
+        "maxFacesDetected": 6,
+        "allFaceCounts": [
+          6
+        ],
+        "groupPhotoFiles": [
+          "svm/georgesc\\1713775118898_ab57eeb1-39e7-4266-a082-04946afbb604.jpg"
+        ],
+        "message": "Member count 7 is more than maximum faces detected 6 in group photos"
+      }
+    ]
+  }
+]

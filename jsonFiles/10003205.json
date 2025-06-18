@@ -1,0 +1,80 @@
+[
+  {
+    "rowId": "94",
+    "tripId": "10003205",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/duongtt9",
+    "memberCount": "5",
+    "vacationDestination": "Quan Hai Thanh",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/duongtt9\\1713766894218_eadb1776-3e99-4803-9a38-5984c5bbf1db.jpg",
+            "type": "image/png",
+            "confidence": 0,
+            "text": "This image cannot be classified",
+            "normalized_value": null
+          }
+        ],
+        [
+          {
+            "file": "svm/duongtt9\\1713766897497_3849aa90-6e0b-412d-85cf-11418b4cfaa6.jpg",
+            "type": "bill",
+            "confidence": 0.8979084491729736,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "837.000",
+                  "confidence": 0.6901133
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024",
+                  "confidence": 0.8939788
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "HDL240420-0006",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "H11",
+                  "confidence": 5.1848e-44
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Qu\u00e1n H\u1ea2I TH\u00c0NH",
+                  "confidence": 0.37569168
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "39/30 \u0110\u01b0\u1eddng 102 - P. T\u0103ng Nh\u01a1n Ph\u00fa A - Q. 9 - Tp.",
+                  "confidence": 0.9219355
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 11:53:30",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_group_photos",
+        "tripId": "10003205",
+        "memberCount": 5,
+        "message": "No group photos found to validate member count"
+      }
+    ]
+  }
+]

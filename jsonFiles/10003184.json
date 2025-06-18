@@ -1,0 +1,195 @@
+[
+  {
+    "rowId": "74",
+    "tripId": "10003184",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/trangbt7",
+    "memberCount": "8",
+    "vacationDestination": "Ba Vi",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/trangbt7\\1714023505734_e3b8f949-03ea-4140-a31c-204a6bdfadd1.png",
+            "type": "bill",
+            "confidence": 0.7822567820549011,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-date",
+                  "mentionText": "13/30",
+                  "confidence": 0.018203383
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "158 Nguy\u1ec5n Tu\u00e2n, Thanh Xu\u00e2n, H\u00e0 N\u1ed9i",
+                  "confidence": 0.7319396
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "203 \u0110\u00ecnh Th\u00f4n, M\u1ef9 \u0110\u00ecnh 1, Nam T\u1eeb Li\u00eam, H\u00e0 N\u1ed9i",
+                  "confidence": 0.46790347
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "34 D\u1ecbch V\u1ecdng H\u1eadu, \nC\u1ea7u Gi\u1ea5y, H\u00e0 N\u1ed9i",
+                  "confidence": 0.07813845
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "9 Ph\u1ea1m Tu\u1ea5n T\u00e0i, D\u1ecbch V\u1ecdng \nH\u1eadu\n, C\u1ea7u Gi\u1ea5y, H\u00e0 N\u1ed9i",
+                  "confidence": 0.21624495
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "TT18 V\u0103n Qu\u00e1n, Nguy\u00ean \nKhuy\u00ean\n, H\u00e0 \u0110\u00f4ng, H\u00e0 N\u1ed9i",
+                  "confidence": 0.010884728
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/trangbt7\\1714023505741_1aadf252-3b8e-4a70-a364-5db8616d6315.png",
+            "type": "group-photo",
+            "confidence": 0.9819536209106445,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 8,
+              "face_annotations": [
+                {
+                  "rollAngle": -13.53596,
+                  "panAngle": -22.778131,
+                  "tiltAngle": -2.0629206,
+                  "detectionConfidence": 0.9921875,
+                  "landmarkingConfidence": 0.6580247,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 2.8113263,
+                  "panAngle": 9.787727,
+                  "tiltAngle": 2.2765527,
+                  "detectionConfidence": 0.796875,
+                  "landmarkingConfidence": 0.65281993,
+                  "joyLikelihood": "UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 8.001278,
+                  "panAngle": 4.8966975,
+                  "tiltAngle": -1.3841558,
+                  "detectionConfidence": 0.84375,
+                  "landmarkingConfidence": 0.3770088,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -11.329141,
+                  "panAngle": -13.490874,
+                  "tiltAngle": -3.6722949,
+                  "detectionConfidence": 0.79296875,
+                  "landmarkingConfidence": 0.28961572,
+                  "joyLikelihood": "UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -6.3352017,
+                  "panAngle": -13.226989,
+                  "tiltAngle": 2.3298194,
+                  "detectionConfidence": 0.8203125,
+                  "landmarkingConfidence": 0.71920127,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 8.347591,
+                  "panAngle": 12.316612,
+                  "tiltAngle": -2.483583,
+                  "detectionConfidence": 0.875,
+                  "landmarkingConfidence": 0.2429458,
+                  "joyLikelihood": "LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -11.516635,
+                  "panAngle": -18.178856,
+                  "tiltAngle": -1.0977464,
+                  "detectionConfidence": 0.6953125,
+                  "landmarkingConfidence": 0.67157406,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -1.8115646,
+                  "panAngle": 16.572731,
+                  "tiltAngle": -3.7062354,
+                  "detectionConfidence": 0.97265625,
+                  "landmarkingConfidence": 0.77247703,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 11:18:20",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_bill_dates_found",
+        "tripId": "10003184",
+        "message": "Bills found but no dates could be extracted from them"
+      }
+    ]
+  }
+]

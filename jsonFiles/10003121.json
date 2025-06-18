@@ -10,7 +10,7 @@
     "processed": {
       "status": "error",
       "error": "400 Unsupported MIME type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'. [reason: \"UNSUPPORTED_MIME_TYPE\"\ndomain: \"documentai.googleapis.com\"\nmetadata {\n  key: \"mime_type\"\n  value: \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\"\n}\n]",
-      "processing_date": "2025-06-16 22:59:20"
+      "processing_date": "2025-06-18 10:42:01"
     }
   },
   {

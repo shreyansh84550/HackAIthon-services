@@ -1,0 +1,150 @@
+[
+  {
+    "rowId": "100",
+    "tripId": "10003211",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-21 00:00:00",
+    "evidenceFolderPath": "svm/nhanhla",
+    "memberCount": "5",
+    "vacationDestination": "Hue",
+    "classfication": {
+      "duration_days": 1,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/nhanhla\\1713774516116_9631bee8-5731-492b-96a0-8493183659dd.pdf",
+            "type": "bill",
+            "confidence": 0.6612455248832703,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "4948.651.113",
+                  "confidence": 0.37717116
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1.157.407",
+                  "confidence": 0.50643426
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "VND",
+                  "confidence": 0.43295074
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1.250.000",
+                  "confidence": 0.6696561
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "VND",
+                  "confidence": 0.40112615
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "550.000",
+                  "confidence": 0.5660455
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "VND",
+                  "confidence": 0.43162003
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "509.259",
+                  "confidence": 0.489311
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "VND",
+                  "confidence": 0.41765815
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "700.000",
+                  "confidence": 0.56777674
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "VND",
+                  "confidence": 0.4252481
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "648.148",
+                  "confidence": 0.47077554
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "14:00-22:00",
+                  "confidence": 0.0027964744
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "12:00",
+                  "confidence": 4.501005e-06
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "2/1",
+                  "confidence": 0.0062226937
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "24/24:",
+                  "confidence": 0.13671987
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Mickey Homestay",
+                  "confidence": 0.3657526
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "17/1 Nguy\u1ec5n Th\u00e1i H\u1ecdc, Hu\u1ebf, Vi\u1ec7t Nam",
+                  "confidence": 0.8288614
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "U\u00c2N PH\u00da",
+                  "confidence": 0.0010349052
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/nhanhla\\1714992112678_b40c771e-61e3-451b-a189-929b91e3230a.jpg",
+            "type": "image/jpeg",
+            "confidence": 0,
+            "text": "This image cannot be classified",
+            "normalized_value": null
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 11:57:32",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_group_photos",
+        "tripId": "10003211",
+        "memberCount": 5,
+        "message": "No group photos found to validate member count"
+      },
+      {
+        "rule": "no_bill_dates_found",
+        "tripId": "10003211",
+        "message": "Bills found but no dates could be extracted from them"
+      }
+    ]
+  }
+]

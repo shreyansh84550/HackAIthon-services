@@ -1,0 +1,240 @@
+[
+  {
+    "rowId": "75",
+    "tripId": "10003185",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-21 00:00:00",
+    "evidenceFolderPath": "svm/hanglt15",
+    "memberCount": "12",
+    "vacationDestination": "Ba Vi",
+    "classfication": {
+      "duration_days": 1,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/hanglt15\\1714705304924_02edd7c6-9871-484b-8ae8-cc75237d59db.jpg",
+            "type": "bill",
+            "confidence": 0.9173915386199951,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3.115.000\u20ab",
+                  "confidence": 0.7251613
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3.115.000\u20ab",
+                  "confidence": 0.66013455
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024 (07:04 CH 09:05",
+                  "confidence": 0.9456195
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "2430005669",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "B07",
+                  "confidence": 0.53178257
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/hanglt15\\1714705305115_b1d75b57-b2e4-4c92-bcea-0f382a648e32.png",
+            "type": "group-photo",
+            "confidence": 0.9834893941879272,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 12,
+              "face_annotations": [
+                {
+                  "rollAngle": -8.464819,
+                  "panAngle": -7.5341024,
+                  "tiltAngle": -5.2046328,
+                  "detectionConfidence": 0.875,
+                  "landmarkingConfidence": 0.59228456,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 26.315998,
+                  "panAngle": 9.078982,
+                  "tiltAngle": 6.1444836,
+                  "detectionConfidence": 0.91796875,
+                  "landmarkingConfidence": 0.62629575,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -7.238254,
+                  "panAngle": -71.10579,
+                  "tiltAngle": 1.39184,
+                  "detectionConfidence": 0.85546875,
+                  "landmarkingConfidence": 0.035093773,
+                  "joyLikelihood": "UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -0.6607574,
+                  "panAngle": -3.0326235,
+                  "tiltAngle": 9.371396,
+                  "detectionConfidence": 0.75390625,
+                  "landmarkingConfidence": 0.57778335,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -5.1740093,
+                  "panAngle": -10.876099,
+                  "tiltAngle": -1.1889119,
+                  "detectionConfidence": 0.98828125,
+                  "landmarkingConfidence": 0.7756351,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 39.710766,
+                  "panAngle": 19.500914,
+                  "tiltAngle": -0.0066790776,
+                  "detectionConfidence": 0.9765625,
+                  "landmarkingConfidence": 0.5309699,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -18.447624,
+                  "panAngle": -12.522715,
+                  "tiltAngle": 0.038179703,
+                  "detectionConfidence": 0.9765625,
+                  "landmarkingConfidence": 0.6792567,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 3.1891894,
+                  "panAngle": 9.474044,
+                  "tiltAngle": -1.7930881,
+                  "detectionConfidence": 0.98828125,
+                  "landmarkingConfidence": 0.6594309,
+                  "joyLikelihood": "UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "UNLIKELY"
+                },
+                {
+                  "rollAngle": -4.388248,
+                  "panAngle": 0.29949933,
+                  "tiltAngle": 14.071903,
+                  "detectionConfidence": 0.98046875,
+                  "landmarkingConfidence": 0.63027406,
+                  "joyLikelihood": "POSSIBLE",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 23.919083,
+                  "panAngle": 1.7431616,
+                  "tiltAngle": 3.3261628,
+                  "detectionConfidence": 0.94140625,
+                  "landmarkingConfidence": 0.46548796,
+                  "joyLikelihood": "LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -22.221472,
+                  "panAngle": -7.8165765,
+                  "tiltAngle": 5.7960677,
+                  "detectionConfidence": 0.984375,
+                  "landmarkingConfidence": 0.6893573,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 1.6504235,
+                  "panAngle": -1.30642,
+                  "tiltAngle": 2.5268304,
+                  "detectionConfidence": 0.984375,
+                  "landmarkingConfidence": 0.6716191,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 11:18:48",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Successul Validation",
+    "Comments": []
+  }
+]

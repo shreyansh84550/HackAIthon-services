@@ -1,0 +1,176 @@
+[
+  {
+    "rowId": "133",
+    "tripId": "10003245",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-21 00:00:00",
+    "evidenceFolderPath": "svm/leln1",
+    "memberCount": "5",
+    "vacationDestination": "Phong Nha",
+    "classfication": {
+      "duration_days": 1,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/leln1\\1713766594585_1088e410-f284-4bf9-8d0f-df8abfc98d4e.jpg",
+            "type": "bill",
+            "confidence": 0.7508257031440735,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "1.800.000",
+                  "confidence": 0.6867929
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "900.000",
+                  "confidence": 0.48814425
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024",
+                  "confidence": 0.41168982
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "21/04/2024",
+                  "confidence": 0.3905453
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Bungalow Escape",
+                  "confidence": 0.37266812
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Phong Nha Escape Bungalow",
+                  "confidence": 0.37893927
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/leln1\\1713766599885_e32f1f0e-ebea-4e40-87d4-d639b27ecf5d.jpg",
+            "type": "group-photo",
+            "confidence": 0.9810965657234192,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 6,
+              "face_annotations": [
+                {
+                  "rollAngle": 9.973257,
+                  "panAngle": -6.200495,
+                  "tiltAngle": 4.2734046,
+                  "detectionConfidence": 0.93359375,
+                  "landmarkingConfidence": 0.23846205,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 3.3677611,
+                  "panAngle": 4.975493,
+                  "tiltAngle": 0.54549193,
+                  "detectionConfidence": 0.984375,
+                  "landmarkingConfidence": 0.73719496,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 49.96568,
+                  "panAngle": 2.3315423,
+                  "tiltAngle": -1.864146,
+                  "detectionConfidence": 0.9609375,
+                  "landmarkingConfidence": 0.27618325,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 18.20895,
+                  "panAngle": 0.7621715,
+                  "tiltAngle": 0.20311637,
+                  "detectionConfidence": 0.984375,
+                  "landmarkingConfidence": 0.6486287,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 25.93205,
+                  "panAngle": 9.600995,
+                  "tiltAngle": 0.34967095,
+                  "detectionConfidence": 0.90234375,
+                  "landmarkingConfidence": 0.7077004,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 29.182865,
+                  "panAngle": 8.186677,
+                  "tiltAngle": 0.65611726,
+                  "detectionConfidence": 0.984375,
+                  "landmarkingConfidence": 0.69809055,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/leln1\\1713766604469_5e9c7ea9-c629-4ed7-9180-ce1596d69905.jpg",
+            "type": "image/jpeg",
+            "confidence": 0,
+            "text": "This image cannot be classified",
+            "normalized_value": null
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 12:14:13",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_valid_bill_dates",
+        "tripId": "10003245",
+        "message": "No bills found within trip date range"
+      }
+    ]
+  }
+]

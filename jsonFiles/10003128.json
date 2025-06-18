@@ -21,42 +21,37 @@
                 {
                   "type": "bill-amount",
                   "mentionText": "4.040.000",
-                  "confidence": 0.36301705
+                  "confidence": 0.64446056
                 },
                 {
                   "type": "bill-amount",
                   "mentionText": "4.040.000",
-                  "confidence": 0.51881695
-                },
-                {
-                  "type": "bill-amount",
-                  "mentionText": "4.040.000",
-                  "confidence": 0.61214817
+                  "confidence": 0.6266779
                 },
                 {
                   "type": "bill-date",
-                  "mentionText": "19/4/2024 ",
-                  "confidence": 0.70488787
+                  "mentionText": "04/37/03",
+                  "confidence": 0.4531903
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "19/4/2024 3:59 PM",
+                  "confidence": 0.89400876
                 },
                 {
                   "type": "invoice-number",
                   "mentionText": "0981932433",
-                  "confidence": 0.7422619
-                },
-                {
-                  "type": "invoice-number",
-                  "mentionText": "0981932433",
-                  "confidence": 0.8003049
+                  "confidence": 0
                 },
                 {
                   "type": "vendor",
-                  "mentionText": "Camping Chill Quy Nh\u01a1n",
-                  "confidence": 0.0053892266
+                  "mentionText": "LE VAN THO",
+                  "confidence": 0.362516
                 },
                 {
                   "type": "vendor-address",
-                  "mentionText": "\u1ec5n Th\u00e1i H\u1ecdc, L\u00ea H\u1ed3ng Phong, Qui Nh\u01a1n",
-                  "confidence": 0.03845457
+                  "mentionText": "H\u1ecdc, L\u00ea H\u1ed3ng Phong,",
+                  "confidence": 0.00044656664
                 }
               ]
             }
@@ -72,7 +67,7 @@
           }
         ]
       ],
-      "processing_date": "2025-06-16 23:01:08",
+      "processing_date": "2025-06-18 10:43:33",
       "status": "Finished"
     }
   },
@@ -90,7 +85,7 @@
         "tripId": "10003128",
         "tripDates": "2024-04-20 to 2024-04-20",
         "billDate": "2024-04-19",
-        "confidence": 0.70488787,
+        "confidence": 0.89400876,
         "source": "svm/tramtth1\\1713769524676_d86af995-dc93-4e4c-b038-8b88dc3f9fae.png",
         "message": "Bill date outside trip date range"
       },

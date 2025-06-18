@@ -1,0 +1,342 @@
+[
+  {
+    "rowId": "38",
+    "tripId": "10003145",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/khoanpn",
+    "memberCount": "9",
+    "vacationDestination": "HCMC",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/khoanpn\\1713924798738_b117a34e-b2b0-4b68-aa5c-f89436ea8c4a.jpg",
+            "type": "group-photo",
+            "confidence": 0.9827986359596252,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 9,
+              "face_annotations": [
+                {
+                  "rollAngle": 15.111596,
+                  "panAngle": 26.386948,
+                  "tiltAngle": -4.791143,
+                  "detectionConfidence": 0.6640625,
+                  "landmarkingConfidence": 0.43034494,
+                  "joyLikelihood": "LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "UNLIKELY"
+                },
+                {
+                  "rollAngle": -8.895907,
+                  "panAngle": 5.853618,
+                  "tiltAngle": 0.06446058,
+                  "detectionConfidence": 0.82421875,
+                  "landmarkingConfidence": 0.6180013,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -5.0239067,
+                  "panAngle": -22.000513,
+                  "tiltAngle": 5.882229,
+                  "detectionConfidence": 0.91015625,
+                  "landmarkingConfidence": 0.4001421,
+                  "joyLikelihood": "UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 1.7763239,
+                  "panAngle": 16.0005,
+                  "tiltAngle": 1.5980136,
+                  "detectionConfidence": 0.97265625,
+                  "landmarkingConfidence": 0.55763865,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -11.589795,
+                  "panAngle": -12.933847,
+                  "tiltAngle": 2.994831,
+                  "detectionConfidence": 0.87109375,
+                  "landmarkingConfidence": 0.70497984,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -16.325068,
+                  "panAngle": -15.4323225,
+                  "tiltAngle": 2.8680477,
+                  "detectionConfidence": 0.875,
+                  "landmarkingConfidence": 0.53750753,
+                  "joyLikelihood": "LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 12.895514,
+                  "panAngle": 17.6002,
+                  "tiltAngle": 3.3103337,
+                  "detectionConfidence": 0.9609375,
+                  "landmarkingConfidence": 0.6795595,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -21.698032,
+                  "panAngle": -8.040642,
+                  "tiltAngle": 0.7309025,
+                  "detectionConfidence": 0.92578125,
+                  "landmarkingConfidence": 0.64017326,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -12.158942,
+                  "panAngle": -14.746691,
+                  "tiltAngle": -5.657596,
+                  "detectionConfidence": 0.97265625,
+                  "landmarkingConfidence": 0.52428055,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/khoanpn\\1713924798744_6f1d125a-c179-4a1b-be80-43fd1a497ed2.jpg",
+            "type": "group-photo",
+            "confidence": 0.982352077960968,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 9,
+              "face_annotations": [
+                {
+                  "rollAngle": -10.636748,
+                  "panAngle": 6.204871,
+                  "tiltAngle": -1.3788935,
+                  "detectionConfidence": 0.984375,
+                  "landmarkingConfidence": 0.60817987,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -12.471844,
+                  "panAngle": -14.491288,
+                  "tiltAngle": -6.7023053,
+                  "detectionConfidence": 0.9921875,
+                  "landmarkingConfidence": 0.5267502,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -5.1215506,
+                  "panAngle": -20.4545,
+                  "tiltAngle": 5.692505,
+                  "detectionConfidence": 0.96484375,
+                  "landmarkingConfidence": 0.4059254,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -13.427236,
+                  "panAngle": -15.51922,
+                  "tiltAngle": 0.29297292,
+                  "detectionConfidence": 0.9765625,
+                  "landmarkingConfidence": 0.6424798,
+                  "joyLikelihood": "LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -11.003323,
+                  "panAngle": -12.0963125,
+                  "tiltAngle": 2.0701966,
+                  "detectionConfidence": 0.98046875,
+                  "landmarkingConfidence": 0.73403144,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -20.787659,
+                  "panAngle": -9.429948,
+                  "tiltAngle": -0.6948538,
+                  "detectionConfidence": 0.921875,
+                  "landmarkingConfidence": 0.6100211,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 13.057538,
+                  "panAngle": 17.146353,
+                  "tiltAngle": 3.8476114,
+                  "detectionConfidence": 0.94921875,
+                  "landmarkingConfidence": 0.6369651,
+                  "joyLikelihood": "LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 13.270418,
+                  "panAngle": 28.315123,
+                  "tiltAngle": 0.55815995,
+                  "detectionConfidence": 0.94921875,
+                  "landmarkingConfidence": 0.40026784,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 2.2854238,
+                  "panAngle": 15.46022,
+                  "tiltAngle": 0.7206943,
+                  "detectionConfidence": 0.625,
+                  "landmarkingConfidence": 0.52461976,
+                  "joyLikelihood": "VERY_UNLIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/khoanpn\\1713924798948_50212f1e-e3ba-4762-bb2a-c47abf7815b2.png",
+            "type": "bill",
+            "confidence": 0.899044930934906,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "2.261.000\u20ab",
+                  "confidence": 0.7405423
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "2.261.000\u20ab",
+                  "confidence": 0.57365227
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024 (18:36 - 21:14)",
+                  "confidence": 0.795242
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "2401004100",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "QU\u00c1N T\u1edaI B\u1ebeN",
+                  "confidence": 0.36250505
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "457 Song H\u00e0nh, Xa L\u1ed9 H\u00e0 N\u1ed9i, Ph\u01b0\u1eddng Tr\u01b0\u1eddng Th\u1ecd,\nTh\u00e0nh ph\u1ed1 Th\u1ee7 \u0110\u1ee9c",
+                  "confidence": 0.95237476
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 10:53:13",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Successul Validation",
+    "Comments": []
+  }
+]

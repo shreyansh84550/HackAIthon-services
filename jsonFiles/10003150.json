@@ -1,0 +1,80 @@
+[
+  {
+    "rowId": "43",
+    "tripId": "10003150",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/locnt26",
+    "memberCount": "14",
+    "vacationDestination": "Tiem Nuong No 728 Cach Mang Thang 8 Phuong 5 Quan Tan Binh TPHCM",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/locnt26\\1713769795746_08571da3-969f-457a-9dd5-b021bb482ccb.jpg",
+            "type": "bill",
+            "confidence": 0.9117975831031799,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "4,672,000",
+                  "confidence": 0.5558502
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "4,672,000",
+                  "confidence": 0.6260968
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024 19:52",
+                  "confidence": 0.8900757
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "HD021675",
+                  "confidence": 1.0
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Ti\u1ec7m N\u01b0\u1edbng N\u1ecd",
+                  "confidence": 0.39110306
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "728 CMT8 P.5 QU\u1eacN T\u00c2N B\u00ccNH",
+                  "confidence": 0.92084265
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/locnt26\\1713769805892_2c165ad8-75c2-4cb5-9492-4917495c5343.jpg",
+            "type": "image/jpeg",
+            "confidence": 0,
+            "text": "This image cannot be classified",
+            "normalized_value": null
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 10:59:01",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_group_photos",
+        "tripId": "10003150",
+        "memberCount": 14,
+        "message": "No group photos found to validate member count"
+      }
+    ]
+  }
+]

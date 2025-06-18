@@ -1,0 +1,147 @@
+[
+  {
+    "rowId": "59",
+    "tripId": "10003168",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-20 00:00:00",
+    "evidenceFolderPath": "svm/taipt3",
+    "memberCount": "5",
+    "vacationDestination": "Team Building Buffet Poseidon",
+    "classfication": {
+      "duration_days": 0,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/taipt3\\1713929485806_3cfce633-2e0b-4e8d-9edd-de9784050da9.png",
+            "type": "bill",
+            "confidence": 0.8805148601531982,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "2.868.780\u20ab",
+                  "confidence": 0.7194852
+                },
+                {
+                  "type": "bill-amount",
+                  "mentionText": "2.868.780\u20ab",
+                  "confidence": 0.57750046
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20/04/2024 (11:14 - 13:12)",
+                  "confidence": 0.9103148
+                },
+                {
+                  "type": "invoice-number",
+                  "mentionText": "A11",
+                  "confidence": 0
+                },
+                {
+                  "type": "vendor",
+                  "mentionText": "Poseidon Th\u1ee7 \u0110\u1ee9c",
+                  "confidence": 0.390817
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "T\u0103ng 4 TTTM Vincom Plaza, 50 L\u00ea V\u0103n Vi\u1ec7t, P. Hi\u1ec7p\nPh\u00fa, TP Th\u1ee7 \n\u0110\u1ee9c, TP HCM",
+                  "confidence": 0.7664028
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/taipt3\\1713929485914_fa8578b4-ed0b-44d4-b143-fe5a960c9d51.png",
+            "type": "group-photo",
+            "confidence": 0.9839493632316589,
+            "normalized_value": null,
+            "image_analysis": {
+              "no_of_faces_detected": 5,
+              "face_annotations": [
+                {
+                  "rollAngle": -9.590663,
+                  "panAngle": -14.98702,
+                  "tiltAngle": -0.57761586,
+                  "detectionConfidence": 0.98828125,
+                  "landmarkingConfidence": 0.5679278,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -18.822254,
+                  "panAngle": -1.322253,
+                  "tiltAngle": -1.4096365,
+                  "detectionConfidence": 0.98828125,
+                  "landmarkingConfidence": 0.81025964,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -18.156782,
+                  "panAngle": -8.598275,
+                  "tiltAngle": 0.20094727,
+                  "detectionConfidence": 0.9921875,
+                  "landmarkingConfidence": 0.6942065,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": -9.188255,
+                  "panAngle": 2.7656872,
+                  "tiltAngle": -6.3215475,
+                  "detectionConfidence": 0.953125,
+                  "landmarkingConfidence": 0.5782338,
+                  "joyLikelihood": "VERY_LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                },
+                {
+                  "rollAngle": 2.183365,
+                  "panAngle": -1.5546491,
+                  "tiltAngle": 8.535766,
+                  "detectionConfidence": 0.99609375,
+                  "landmarkingConfidence": 0.76739144,
+                  "joyLikelihood": "LIKELY",
+                  "sorrowLikelihood": "VERY_UNLIKELY",
+                  "angerLikelihood": "VERY_UNLIKELY",
+                  "surpriseLikelihood": "VERY_UNLIKELY",
+                  "underExposedLikelihood": "VERY_UNLIKELY",
+                  "blurredLikelihood": "VERY_UNLIKELY",
+                  "headwearLikelihood": "VERY_UNLIKELY"
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 11:08:53",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Successul Validation",
+    "Comments": []
+  }
+]

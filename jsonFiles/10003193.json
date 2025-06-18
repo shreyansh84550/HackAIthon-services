@@ -1,0 +1,119 @@
+[
+  {
+    "rowId": "82",
+    "tripId": "10003193",
+    "fromDate": "2024-04-20 00:00:00",
+    "toDate": "2024-04-21 00:00:00",
+    "evidenceFolderPath": "svm/thangvm7",
+    "memberCount": "15",
+    "vacationDestination": "Ha Giang",
+    "classfication": {
+      "duration_days": 1,
+      "extracted_entities": [
+        [
+          {
+            "file": "svm/thangvm7\\1713752696000_bd7e6957-15d6-48cc-99d7-34d26c6efb1a.pdf",
+            "type": "bill",
+            "confidence": 0.7217211127281189,
+            "normalized_value": null,
+            "processing_results": {
+              "entities": [
+                {
+                  "type": "bill-amount",
+                  "mentionText": "3.000.000",
+                  "confidence": 0.57897174
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20 th\u00e1ng. 4. n\u0103m 2024",
+                  "confidence": 0.030564683
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20\nth\u00e1ng 4",
+                  "confidence": 0.042546898
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "6./12/1997.",
+                  "confidence": 0.25351068
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "28/7/2018",
+                  "confidence": 0.8527688
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "0981.84.5. 09.6",
+                  "confidence": 0.007915992
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "10. m.",
+                  "confidence": 0.008394364
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "21.1.4.1.2024",
+                  "confidence": 0.01686875
+                },
+                {
+                  "type": "bill-date",
+                  "mentionText": "20.1.4./2024",
+                  "confidence": 0.049858518
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": "H\u00e0 Gian",
+                  "confidence": 0.2764757
+                },
+                {
+                  "type": "vendor-address",
+                  "mentionText": ", t\u1ee7 qu\u1ea7n \u00e1o, \u0111\u00e8n ng\u1ee7, gi",
+                  "confidence": 0.0004908864
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "file": "svm/thangvm7\\1713752704096_c5daeeb5-e16b-455e-ae81-0a6679ba3cce.png",
+            "type": "image/jpeg",
+            "confidence": 0,
+            "text": "This image cannot be classified",
+            "normalized_value": null
+          }
+        ]
+      ],
+      "processing_date": "2025-06-18 11:23:32",
+      "status": "Finished"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_group_photos",
+        "tripId": "10003193",
+        "memberCount": 15,
+        "message": "No group photos found to validate member count"
+      },
+      {
+        "rule": "bill_date_out_of_range",
+        "tripId": "10003193",
+        "tripDates": "2024-04-20 to 2024-04-21",
+        "billDate": "2018-07-28",
+        "confidence": 0.8527688,
+        "source": "svm/thangvm7\\1713752696000_bd7e6957-15d6-48cc-99d7-34d26c6efb1a.pdf",
+        "message": "Bill date outside trip date range"
+      },
+      {
+        "rule": "no_valid_bill_dates",
+        "tripId": "10003193",
+        "message": "No bills found within trip date range"
+      }
+    ]
+  }
+]

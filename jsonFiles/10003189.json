@@ -1,0 +1,27 @@
+[
+  {
+    "rowId": "79",
+    "tripId": "10003189",
+    "fromDate": "2024-04-21 00:00:00",
+    "toDate": "2024-04-21 00:00:00",
+    "evidenceFolderPath": "svm/phunv4",
+    "memberCount": "20",
+    "vacationDestination": "Nai Vang quan",
+    "processed": {
+      "status": "error",
+      "error": "400 Request contains an invalid argument. [field_violations {\n  field: \"raw_document.mime_type\"\n  description: \"Unsupported mime type.\"\n}\n]",
+      "processing_date": "2025-06-18 11:20:58"
+    }
+  },
+  {
+    "status": "Error Validation",
+    "Comments": [
+      {
+        "rule": "no_group_photos",
+        "tripId": "10003189",
+        "memberCount": 20,
+        "message": "No group photos found to validate member count"
+      }
+    ]
+  }
+]
